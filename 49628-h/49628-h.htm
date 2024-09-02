@@ -1,0 +1,4447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>
+      The Project Gutenberg ebook of Beadle's Dime Song Book No. 2.
+    </title>
+    <link rel="coverpage" href="images/cover.jpg"/>
+    <style type="text/css">
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    h1,h2,h3,h4 {
+    text-align: center;
+    clear: both;
+}
+
+.break {page-break-before: always;}
+.no-break {page-break-before: avoid;}
+
+/* for justified text on single line:*/
+span.issue { display:inline-block; text-align:left; width:32%; } /* issue and price are artificial names */
+span.price { display:inline-block; text-align:right; width:32%; }
+
+p {
+    margin-top: .75em;
+    text-align: justify;
+    margin-bottom: .75em;
+}
+.p0 {margin-top: -.75em;}
+.p2 {margin-top: 2em;}
+.p4 {margin-top: 4em;}
+.indent {margin-left: 4em;} /* for index headers at the end */
+
+hr { /*default rule across entire width */
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+  hr.short  {
+   margin-right:40%;
+   margin-left:40%;
+   text-align:center;
+   width:20%;
+  }
+
+a:link {text-decoration:none;} /* no UL of any links - useful for html accessibility */
+a:visited {text-decoration:none;}
+
+.fnanchor {
+  font-size: 65%;
+  text-decoration: none;
+  vertical-align: .5em;
+  font-weight: normal;
+}
+
+.footnote {font-size: 90%;
+          text-decoration: none;}
+
+.pagenum {
+    visibility: hidden;
+    position: absolute;
+    left: 92%;
+    font-size: 50%;
+    font-style: normal;
+    text-align: right;
+    color: #444;}
+
+@media print{ /* show page numbers only for printed version */
+.pagenum {visibility: visible;}
+}
+
+.center   {text-align: center;}
+.ls {letter-spacing: .25em;}
+.smcap  {font-style: normal; font-variant: small-caps;}
+.smaller {font-size: 90%;}
+.muchsmaller {font-size: 75%;} /* for all small caps inside span markup */
+.larger {font-size: 110%;}
+.muchlarger {font-size: 150%;}
+
+li {margin-left: 1em; /* secondary index lines indented */
+    text-indent:-1em;
+    list-style-type: none;}
+
+/* Images */
+.figcenter   {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* this aligns the illo, not text */
+}
+
+table {margin-left: auto;
+  margin-right: auto;
+  border: solid black 1px; /* box around entire table */
+  border-collapse: collapse;
+  margin-top: 1em;
+  margin-bottom: 2em;}
+
+th {height: 4em;
+    text-align: center;}
+
+ td.left {vertical-align: top;
+  text-align: left;
+  text-indent: -1em;
+  padding-left: 2.25em;
+  padding-right: 3em;
+  padding-bottom: 0;
+  padding-top: 0;}
+
+ td.right {vertical-align: bottom;
+  text-align: right;
+  padding-left: .25em;
+  padding-right: 1.25em;
+  padding-bottom: 0;
+  padding-top: 0;}
+
+  table.a {text-decoration:none} /* no UL of links inside table*/
+
+/* Poetry */
+
+.poem-container {
+  text-align: center;
+  page-break-before: avoid;
+  }
+
+.poem {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  }
+
+.poem .stanza {margin: .5em 0em 1em 0em;}
+
+.poem .i0 {
+  display: block;
+  margin-left: 0em;
+  padding-left: 3em;
+  text-indent: -3em;
+  }
+
+.poem .i0a {
+  display: block;
+  margin-left: -.5em;
+  padding-left: 3em;
+  text-indent: -3em;
+  }
+
+.poem .i1 {
+  display: block;
+  margin-left: 1em;
+  padding-left: 3em;
+  text-indent: -3em;
+  }
+
+.poem .i1a {
+  display: block;
+  margin-left: .5em;
+  padding-left: 3em;
+  text-indent: -3em;
+  }
+
+.poem .i2 {
+  display: block;
+  margin-left: 2em;
+  padding-left: 3em;
+  text-indent: -3em;
+  }
+
+.poem .i2a {
+  display: block;
+  margin-left: 1.5em; /* for lines starting with quote mark */
+  padding-left: 3em;
+  text-indent: -3em;
+  }
+
+.poem .i3 {
+  display: block;
+  margin-left: 3em;
+  padding-left: 3em;
+  text-indent: -3em;
+  }
+
+.poem .i4 {
+  display: block;
+  margin-left: 4em;
+  padding-left: 3em;
+  text-indent: -3em;
+  }
+
+.poem .i6 {
+  display: block;
+  margin-left: 6em;
+  padding-left: 3em;
+  text-indent: -3em;
+  }
+
+.poem .i8 {
+  display: block;
+  margin-left: 8em;
+  padding-left: 3em;
+  text-indent: -3em;
+  }
+
+/* remove bullets from list */
+.none {list-style-type: none;}
+
+/* Transcriber notes */
+.tnote {border: dashed .1em;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: .5em 2em .5em 2em;
+}
+
+.box   {border: solid .1em; /* for ad, title page, and contents */
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: .5em 2em .5em 2em;
+}
+
+    </style>
+  </head>
+
+<body>
+
+<!--001.png-->
+
+<p class="p4 center muchlarger"><span class="issue"><strong>2</strong></span><strong>BEADLES</strong><span class="price"><strong>2</strong></span></p>
+
+<div class="figcenter">
+ <img src="images/cover.jpg"
+ width="500" height="798"
+ alt="Illustration: Cover"
+ title="Cover"
+ />
+</div>
+<h1>DIME UNION<br />
+SONG BOOK</h1>
+
+<p class="p2 muchlarger center"><strong><abbr title="Number">No.</abbr> 2.</strong></p>
+<hr class="short" />
+<p class="p2 center">NEW-YORK:<br />
+<span class="ls">AMERICAN NEWS COMPANY,</span><br />
+<span class="smcap">121 Nassau Street</span>.</p>
+
+<!--002.png-->
+<!--003.png-->
+
+<div class="p4 box">
+<p class="center"><strong>BEADLE’S</strong></p>
+
+<div class="figcenter">
+ <img src="images/dime.jpg"
+ width="250" height="118"
+ alt="Illustration: Dime logo"
+ title="Dime logo"
+ />
+</div>
+
+<p class="center muchlarger"><strong>’UNION SONG BOOK</strong></p>
+
+<p class="p2 center larger"><abbr title="Number">No.</abbr> 2.</p>
+
+<p class="p2 center smaller">COMPRISING NEW AND POPULAR</p>
+
+<p class="p2 center muchlarger">PATRIOTIC SONGS</p>
+
+<p class="p2 center larger">FOR THE TIMES.</p>
+
+
+<div class="p2 figcenter">
+ <img src="images/flags.jpg"
+ width="125" height="78"
+ alt="Illustration: Flags"
+ title="Flags"
+ />
+</div>
+
+<p class="p2 center">NEW YORK AND LONDON:<br />
+Beadle and Company, 141 William St., N. Y.<br />
+<span class="smaller">44 PATERNOSTER ROW, LONDON.</span></p>
+</div>
+<!--004.png-->
+
+<p class="p4 center smaller">Entered according to Act of Congress, In the year 1861,<br />
+<span class="smcap">By</span> BEADLE AND COMPANY,<br />
+in the Clerk’s Office of the District Court of the United States for<br />
+the Southern District of New York.</p>
+
+<div class="p4 chapter"><!--005.png-->
+
+<table summary="table of contents">
+<tr><th colspan="2" scope="colgroup">CONTENTS.</th></tr>
+<tr><td></td><td class="right"><span class="smaller">Page</span></td></tr>
+<tr><td class="left">A Life in the Soldier’s Camp,</td><td class="right"><a href="#Page_63">63</a></td></tr>
+<tr><td class="left">A Mother’s Hymn in Time of War,</td><td class="right"><a href="#Page_54">54</a></td></tr>
+<tr><td class="left">A Soldier’s Dream of Home,</td><td class="right"><a href="#Page_64">64</a></td></tr>
+<tr><td class="left">A Yankee Volunteer,</td><td class="right"><a href="#Page_65">65</a></td></tr>
+<tr><td class="left">Away to the Fray,</td><td class="right"><a href="#Page_55">55</a></td></tr>
+<tr><td class="left">Battle Invocation,</td><td class="right"><a href="#Page_72">72</a></td></tr>
+<tr><td class="left">Beautiful Union,</td><td class="right"><a href="#Page_49">49</a></td></tr>
+<tr><td class="left">Begone, Sesesh,</td><td class="right"><a href="#Page_43">43</a></td></tr>
+<tr><td class="left">Blue Jackets, Fall in,</td><td class="right"><a href="#Page_20">20</a></td></tr>
+<tr><td class="left">Draw the Sword, Northland,</td><td class="right"><a href="#Page_11">11</a></td></tr>
+<tr><td class="left">Drummer Boy of the National Greys,</td><td class="right"><a href="#Page_38">38</a></td></tr>
+<tr><td class="left">“<span lang="la">E Pluribus Unum</span>,”</td><td class="right"><a href="#Page_31">31</a></td></tr>
+<tr><td class="left">Flag Song,</td><td class="right"><a href="#Page_24">24</a></td></tr>
+<tr><td class="left">Following the Drum,</td><td class="right"><a href="#Page_40">40</a></td></tr>
+<tr><td class="left">Gathering Song,</td><td class="right"><a href="#Page_15">15</a></td></tr>
+<tr><td class="left">Give us Room,</td><td class="right"><a href="#Page_69">69</a></td></tr>
+<tr><td class="left">Hail Columbia,</td><td class="right"><a href="#TOCnote">77</a></td></tr>
+<tr><td class="left">Hark! to the Tread,</td><td class="right"><a href="#Page_28">28</a></td></tr>
+<tr><td class="left">Hurrah for the Land we Love,</td><td class="right"><a href="#Page_13">13</a></td></tr>
+<tr><td class="left">Liberty,</td><td class="right"><a href="#Page_16">16</a></td></tr>
+<tr><td class="left">Mustering Chorus,</td><td class="right"><a href="#Page_42">42</a></td></tr>
+<tr><td class="left">My Love he is a Zou-zu,</td><td class="right"><a href="#Page_26">26</a></td></tr>
+<tr><td class="left">Our Country, Now and Ever,</td><td class="right"><a href="#Page_25">25</a></td></tr>
+<tr><td class="left">Our Flag,</td><td class="right"><a href="#Page_35">35</a></td></tr>
+<tr><td class="left">Rally, Boys!</td><td class="right"><a href="#Page_58">58</a></td></tr>
+<tr><td class="left">Remember Traitors,</td><td class="right"><a href="#Page_48">48</a></td></tr>
+<tr><td class="left">Rule, Columbia,</td><td class="right"><a href="#Page_45">45</a></td></tr>
+<tr><td class="left">Song of the Zouaves,</td><td class="right"><a href="#Page_21">21</a></td></tr>
+<tr><td class="left">Song of Union,</td><td class="right"><a href="#Page_61">61</a></td></tr>
+<tr><td class="left">Stand by the Union,</td><td class="right"><a href="#Page_37">37</a></td></tr>
+<tr><td class="left"><!--006.png-->Summons to the North,</td><td class="right"><a href="#Page_9">9</a></td></tr>
+<tr><td class="left">Sweet is the Fight,</td><td class="right"><a href="#Page_47">47</a></td></tr>
+<tr><td class="left">Sweet Maid of Erin,</td><td class="right"><a href="#Page_36">36</a></td></tr>
+<tr><td class="left">The Alarum,</td><td class="right"><a href="#Page_71">71</a></td></tr>
+<tr><td class="left">The Banner of Stars,</td><td class="right"><a href="#Page_33">33</a></td></tr>
+<tr><td class="left">The Birth of our Banner,</td><td class="right"><a href="#Page_30">30</a></td></tr>
+<tr><td class="left">The Brave and Free,</td><td class="right"><a href="#Page_46">46</a></td></tr>
+<tr><td class="left">The Delaware Volunteers,</td><td class="right"><a href="#Page_34">34</a></td></tr>
+<tr><td class="left">The Flag and the Union,</td><td class="right"><a href="#Page_10">10</a></td></tr>
+<tr><td class="left">The Flag of the Brave,</td><td class="right"><a href="#Page_67">67</a></td></tr>
+<tr><td class="left">The Flag of the Free,</td><td class="right"><a href="#Page_14">14</a></td></tr>
+<tr><td class="left">The Great Union Club,</td><td class="right"><a href="#Page_12">12</a></td></tr>
+<tr><td class="left">The “Mud-Sills” Greeting,</td><td class="right"><a href="#Page_59">59</a></td></tr>
+<tr><td class="left">The Nation of the Free,</td><td class="right"><a href="#Page_57">57</a></td></tr>
+<tr><td class="left">The Northmen are Coming,</td><td class="right"><a href="#Page_22">22</a></td></tr>
+<tr><td class="left">The Northern Hurrah,</td><td class="right"><a href="#Page_32">32</a></td></tr>
+<tr><td class="left">The Past and Present,</td><td class="right"><a href="#Page_60">60</a></td></tr>
+<tr><td class="left">The Patriot’s Address,</td><td class="right"><a href="#Page_73">73</a></td></tr>
+<tr><td class="left">The Patriot’s Serenade,</td><td class="right"><a href="#Page_44">44</a></td></tr>
+<tr><td class="left">The Patriot’s Wish,</td><td class="right"><a href="#Page_74">74</a></td></tr>
+<tr><td class="left">The Patriot Soldier,</td><td class="right"><a href="#Page_68">68</a></td></tr>
+<tr><td class="left">The Star-Gemmed Flag,</td><td class="right"><a href="#Page_50">50</a></td></tr>
+<tr><td class="left">The Star Flag,</td><td class="right"><a href="#Page_5">5</a></td></tr>
+<tr><td class="left">The Star-Spangled Banner,</td><td class="right"><a href="#TOCnote">76</a></td></tr>
+<tr><td class="left">The Stripes and Stars,</td><td class="right"><a href="#Page_27">27</a></td></tr>
+<tr><td class="left">The Union Gunning Match,</td><td class="right"><a href="#Page_56">56</a></td></tr>
+<tr><td class="left">The Union Harvesting,</td><td class="right"><a href="#Page_75">75</a></td></tr>
+<tr><td class="left">The Union Marseillaise,</td><td class="right"><a href="#Page_70">70</a></td></tr>
+<tr><td class="left">The Union Sacrifice,</td><td class="right"><a href="#Page_18">18</a></td></tr>
+<tr><td class="left">The Volunteer Yankee Doodle of ’61,</td><td class="right"><a href="#Page_23">23</a></td></tr>
+<tr><td class="left">Three Cheers for our Banner,</td><td class="right"><a href="#Page_66">66</a></td></tr>
+<tr><td class="left">Traitor, Spare that Flag,</td><td class="right"><a href="#Page_62">62</a></td></tr>
+<tr><td class="left">Union Forever,</td><td class="right"><a href="#Page_7">7</a></td></tr>
+<tr><td class="left">Victory’s Band,</td><td class="right"><a href="#Page_41">41</a></td></tr>
+<tr><td class="left">Volunteer’s Song,</td><td class="right"><a href="#Page_53">53</a></td></tr>
+<tr><td class="left">Where Liberty dwells there is my Country,</td><td class="right"><a href="#Page_8">8</a></td></tr>
+<tr><td class="left">Wife of my Bosom,</td><td class="right"><a href="#Page_17">17</a></td></tr>
+<tr><td class="left">Words of Sympathy,</td><td class="right"><a href="#Page_52">52</a></td></tr>
+</table>
+</div>
+<!--007.png--><p><a name="Page_5" id="Page_5"></a><span class="pagenum">[Pg 5]</span></p>
+<h2 class="p4">BEADLE’S<br />
+DIME UNION SONG BOOK</h2>
+
+<p class="center muchlarger"><abbr title="Number">No.</abbr> 2.</p>
+<hr class="short" />
+
+<div class="chapter">
+<h3 class="p2">The Star-Flag.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>The Star-Spangled Banner.</i></p>
+<div class="poem-container no-break">
+<div class="poem">
+<div class="stanza">
+   <div class="i0">When our fathers in vain sought redress from the throne,</div>
+   <div class="i1">    And the tyrant grew mad in his thirst for dominion,</div>
+   <div class="i0">  Earth shook while the bugle of conflict was blown;</div>
+   <div class="i1">    And our eagle unfolded his newly-fledged pinion.</div>
+   <div class="i4">            Men with hair thin and white,</div>
+   <div class="i4">            Bared their arms for the fight,</div>
+   <div class="i0">  And the lad of sixteen made the dull weapon bright;</div>
+   <div class="i1">    While gilding the battle-storm, rolling in wrath,</div>
+   <div class="i1">    The star-flag of Freedom streamed full on their path.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">The bird to that banner forever allied,</div>
+   <div class="i1">    Was born in the cloud, and baptized by the thunder;</div>
+   <div class="i0">  And deeply in blood will his talons be dyed,</div>
+   <div class="i1">    Ere its clustering stars shall be riven asunder.</div>
+   <div class="i4">            And fiercely their light,</div>
+   <div class="i4">            Through the smoke of the fight,</div>
+   <div class="i0">  Shall flash, making traitors grow pale at the sight;</div>
+   <div class="i1">    And the sun, overtaken by death, shall grow cold,</div>
+   <div class="i1">    When the banner we hail is no longer unrolled.</div>
+<!--008.png--><a name="Page_6" id="Page_6"></a><span class="pagenum">[Pg 6]</span>
+ </div>
+ <div class="stanza">
+   <div class="i0">Black treason shall never put foot on the flag</div>
+   <div class="i1">    That floated the blast when Cornwallis was taken;</div>
+   <div class="i0">  And ere it give place to a Palmetto rag,</div>
+   <div class="i1">    The dead on the fields of their fame will awaken,</div>
+   <div class="i4">            Oh, shall it be furled,</div>
+   <div class="i4">            Bringing night on the world,</div>
+   <div class="i0">  While the house of our fathers in ruin is hurled!</div>
+   <div class="i1">    The brigand and traitor may hear a reply</div>
+   <div class="i1">    In the clash of our steel and the rallying cry.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Our bold Harry Clay loved this land of the free&mdash;</div>
+   <div class="i1">    His name from old Jackson we will not dissever;</div>
+   <div class="i0">  Then spliced be your Ash to the Hickory-tree,</div>
+   <div class="i1">    And let them be symbols of Union forever.</div>
+   <div class="i4">            Without fear in their hearts,</div>
+   <div class="i4">            Well they acted their parts,</div>
+   <div class="i0">  Though traitors showered on them their deadliest darts;</div>
+   <div class="i1">    And true to their Maker, and faithful to man,</div>
+   <div class="i1">    The standard of Freedom they bore in the van.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">From the North to the Tropic shall float on the gale</div>
+   <div class="i1">    Our star-flag, upheld by the brave and the just;</div>
+   <div class="i0">  Though a wretched Disunion banditti assail,</div>
+   <div class="i1">    They shall not drag down its proud eagle to dust.</div>
+   <div class="i4">            Then arm for the strife,</div>
+   <div class="i4">            Give them war to the knife,</div>
+   <div class="i0">  And light in the balance with Union hold life;</div>
+   <div class="i1">    Our flag to the breeze that a Washington blest,</div>
+   <div class="i1">    Though torn must wave over Charleston again.</div>
+ </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2">Union Forever.<!--009.png--><a name="Page_7" id="Page_7"></a><span class="pagenum">[Pg 7]</span>
+</h3>
+
+<p class="center smaller">Copied by permission of <span class="smcap">Firth, Pond &amp; Co.</span>, Music Publishers,</p>
+<p class="p0 center smaller">547 Broadway, N. Y., owners of the copyright.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">The Union of States forever will stand,</div>
+   <div class="i1">    The watchword of Freedom and Fame,</div>
+   <div class="i0">  A refuge for all from tyranny’s sway,</div>
+   <div class="i1">    An altar for Liberty’s flame.</div>
+   <div class="i0">  That Banner, bedecked by Heaven’s own tints,</div>
+   <div class="i1">    When threatened with insult or scorn,</div>
+   <div class="i0">  Each Patriot heart will rally around,</div>
+   <div class="i1">    To shelter its folds from the storm!</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i0">The Union of States forever will stand,</div>
+   <div class="i1">    Defying oppression’s dark blight;</div>
+   <div class="i0">  Forever our flag will wave o’er the land,</div>
+   <div class="i1">    The ensign of Freedom and Light.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Columbia’s sons triumphant will breast</div>
+   <div class="i1">    Disunion’s tempestuous sea,</div>
+   <div class="i0">  Our grand old Ship forever will sail,</div>
+   <div class="i1">    The pride of the brave and the free.</div>
+   <div class="i0">  What God in his mercy hath wisely ordained,</div>
+   <div class="i1">    Forever a nation to stand,</div>
+   <div class="i0">  Not all foreign factions or traitors combined</div>
+   <div class="i1">    Can ever defame or disband.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i0">The Union of States forever will stand,</div>
+   <div class="i1">    Defying oppression’s dark blight;</div>
+   <div class="i0">  Forever our Flag will wave o’er the land,</div>
+   <div class="i1">    The ensign of Freedom and Light.</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2">Where Liberty dwells, there is my Country.<!--010.png--><a name="Page_8" id="Page_8"></a><span class="pagenum">[Pg 8]</span>
+</h3>
+
+<p class="center smaller">Copied by permission of <span class="smcap">Horace Waters</span>, Music Publisher,</p>
+<p class="p0 center smaller">481 Broadway, N. Y., owner of the copyright.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Where Liberty dwells is my country;</div>
+   <div class="i1">    There, only there; there, only there;</div>
+   <div class="i0">  Where Liberty dwells is my country;</div>
+   <div class="i1">    There, and only there.<span class="lock"><a name="fnanchor_A" id="fnanchor_A"></a><a href="#footnote_A" class="fnanchor">[A]</a></span></div>
+   <div class="i0">  Though storms should howl around her,</div>
+   <div class="i1">    And skies be overcast,</div>
+   <div class="i0">  And the good ship seem just to founder,</div>
+   <div class="i1">    Still, boys, we give to the blast:</div>
+   <div class="i4">          <i>Chorus.</i>&mdash;Where Liberty dwells, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">That land; we will defend her,</div>
+   <div class="i1">    While floats our flag on high;</div>
+   <div class="i0">  Our motto is, “Never surrender,”</div>
+   <div class="i1">    Fight till we conquer or die. &emsp; [<i>Chorus.</i></div>
+ </div>
+ <div class="stanza">
+   <div class="i0">That star-sprent flag once covered</div>
+   <div class="i1">    Our Washington, the blest;</div>
+   <div class="i0">  That eagle victorious has hovered</div>
+   <div class="i1">    Long o’er our bravest and best. &emsp; [<i>Chorus.</i></div>
+ </div>
+ <div class="stanza">
+   <div class="i0">And know, there’s One who never</div>
+   <div class="i1">    Bids a good cause go down;</div>
+   <div class="i0">  God reigns, and His favor is ever</div>
+   <div class="i1">    With us&mdash;with our foes, His frown. &emsp; [<i>Chorus.</i></div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Sing, then; bid those who love us,</div>
+   <div class="i1">    Join in our song so free;</div>
+   <div class="i0">  The heavens are smiling above us,</div>
+   <div class="i1">    Success, peace and liberty. &emsp; [<i>Chorus.</i></div>
+  </div>
+</div></div><!--end poem and container-->
+
+<p class="footnote center no-break"> <a name="footnote_A" id="footnote_A"></a>
+<a href="#fnanchor_A"><span class="muchsmaller">[A]</span></a>
+ Repeat first four lines at commencement of each stanza.</p>
+
+</div><!--end chapter-->
+<div class="chapter">
+<h3 class="p2">Summons to the North.<!--011.png--><a name="Page_9" id="Page_9"></a><span class="pagenum">[Pg 9]</span>
+</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>To the West&mdash;to the West</i>.</p>
+
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">To the field! to the field! where our comrades now stand,</div>
+   <div class="i0">  For the cause of the Union, the life of our land!</div>
+   <div class="i0">  Where the sons of the North for their liberties fight,</div>
+   <div class="i0">  And the men of all nations combine for the right;</div>
+   <div class="i0">  Where the children of Erin with Britons conjoin,</div>
+   <div class="i0">  And the Gaul and the German press loin unto loin;</div>
+   <div class="i0">  And the men of Italia and Hungary true</div>
+   <div class="i0">  Are surrounding the Flag of the Red, White and Blue!</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i0">To the field! to the field! let no freeman delay!</div>
+   <div class="i0">  For our cause is the Union’s, our time is to-day!</div>
+   <div class="i0">  If the power of the Northland triumphant would be,</div>
+   <div class="i0">  It must rise like the tempest, and surge like the sea.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">  ’Tis a cause&mdash;’tis a cause that makes heroes of all;</div>
+   <div class="i0">  For the Union, the Union to conquer or fall!</div>
+   <div class="i0">  ’Tis the cause of mankind, ’tis the cause of the world,</div>
+   <div class="i0">  That our swords are unsheathed for, our banners unfurled!</div>
+   <div class="i0">  And the heart of the vassal on Muscovite plains,</div>
+   <div class="i0">  And the soul of the Polander, weary of chains,</div>
+   <div class="i0">  And the pulse of the Magyar, the brain of the Greek,</div>
+   <div class="i0">  Will respond with the hopes that their lips dare not speak.</div>
+ </div>
+ <div class="stanza">
+   <div class="i8">                        To the field! etc.</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2">The Flag and the Union.<!--012.png--><a name="Page_10" id="Page_10"></a><span class="pagenum">[Pg 10]</span>
+</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Bay of Biscay, O!</i></p>
+
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Loud roared Disunion’s thunder,</div>
+   <div class="i1">    And Treason’s fires burned red;</div>
+   <div class="i0">  Our nation, rent asunder,</div>
+   <div class="i1">    Beheld the tempest dread;</div>
+   <div class="i2">      From Sumter’s blazing spars,</div>
+   <div class="i2">      Our glorious flag of stars,</div>
+   <div class="i3">        Torn away,</div>
+   <div class="i3">        Prostrate lay,</div>
+   <div class="i2">      Under sway of Rebels, O!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">But upward rose our Nation,</div>
+   <div class="i1">    Aroused by war’s alarms;</div>
+   <div class="i0">  With one loud declaration</div>
+   <div class="i1">    The people sprung to arms&mdash;</div>
+   <div class="i2a">      “Our Flag,” they cried, “shall wave!</div>
+   <div class="i2">      Our Union we will save!</div>
+   <div class="i3">        Clear the way,</div>
+   <div class="i3">        For the fray!</div>
+   <div class="i2">      We’ll repay these Rebels, O!”</div>
+ </div>
+ <div class="stanza">
+   <div class="i0a">  “Our course by heaven is guided&mdash;</div>
+   <div class="i1">    Its goal yet shines afar&mdash;</div>
+   <div class="i0">  Our Union undivided&mdash;</div>
+   <div class="i1">    Our flag with every star!</div>
+   <div class="i2">      From Rio Grande’s shore,</div>
+   <div class="i2">      To ice-bound Labrador,</div>
+   <div class="i3">        Land and sea</div>
+   <div class="i3">        Shall be free</div>
+   <div class="i2">      From the sway of Rebels, O!”</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--013.png--><a name="Page_11" id="Page_11"></a><span class="pagenum">[Pg 11]</span>
+Draw the Sword, Northland.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Draw the Sword, Scotland.</i></p>
+
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Draw the sword, Northland! Northland! Northland!</div>
+   <div class="i1">    Too long have we parleyed with insolent foes;</div>
+   <div class="i0">  Arise for the Union, Union, Union!</div>
+   <div class="i1">    Even as for freedom our fathers arose!</div>
+   <div class="i0">  From valleys and mountains, clustering, clustering,</div>
+   <div class="i1">    From forest and prairie, and shores of the sea;</div>
+   <div class="i0">  For Freedom’s great battle-field mustering, mustering,</div>
+   <div class="i1">    Beneath the star-banner, the Flag of the Free!</div>
+   <div class="i0">  Draw the sword, Northland! Northland! Northland!</div>
+   <div class="i1">    Charge on Rebellion and all its dark powers;</div>
+   <div class="i0">  Strike for the Union, Union, Union!</div>
+   <div class="i1">    He who holds back is no comrade of ours!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Sheathe the sword, Northland! Northland! Northland!</div>
+   <div class="i1">    Only when Rebels no longer contend&mdash;</div>
+   <div class="i0">  Only when Union, Union, Union!</div>
+   <div class="i1">    Shall weld a new bond that no Treason can rend!</div>
+   <div class="i0">  When the dread struggle is over, over,</div>
+   <div class="i1">    And Liberty’s duty is fairly done,</div>
+   <div class="i0">  We will offer our hands to the vanquished, vanquished,</div>
+   <div class="i1">    And bid them be once more the Many in One!</div>
+   <div class="i0">  Sheathe the sword, Northland! Northland! Northland!</div>
+   <div class="i1">    Only when Treason no longer lowers!</div>
+   <div class="i0">  Only when Union, Union, Union!</div>
+   <div class="i1">    For all the great Future, is ours, still ours!</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--014.png--><a name="Page_12" id="Page_12"></a><span class="pagenum">[Pg 12]</span>
+The Great Union Club.</h3>
+
+<p class="center smaller">BY ROBERT M. HART.</p>
+
+<p class="center no-break"><span class="smcap">Air</span>&mdash;<i>Villikins and Dinah.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">There is an old gent and his name it is Abe,</div>
+   <div class="i0">  He is a rail-splitter, for so it is said,</div>
+   <div class="i0">  But for the whole Union he ever was true,</div>
+   <div class="i0">  And thought it a farce to <em>split it in two</em>.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i2">      Rub-be-dub, rub-be-dub, rub-be-dub, dub,</div>
+   <div class="i2">      Oh march to the tap of the rub-be-dub, dub,</div>
+   <div class="i2">      Old Abe he is raising a “Great Union <em>Club</em>,”</div>
+   <div class="i2">      To give the Seceshers a very hard rub.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">When Abe was elected ’twas late in the Fall,</div>
+   <div class="i0">  As President, over Seceshers and all,</div>
+   <div class="i0">  And by all the rails in the Union did swear&mdash;</div>
+   <div class="i0">  Jacksonian like&mdash;to act on the square.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Seceshers were trying to frighten old Abe,</div>
+   <div class="i0">  By blowing and stealing&mdash;their favorite trade&mdash;</div>
+   <div class="i0">  But when they had made a considerable noise,</div>
+   <div class="i0">  Old Abe gave a yell for some of “The Boys.”</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">The yell it was heard, and it had its effect,</div>
+   <div class="i0">  To play “Help your neighbor,” “The Boys” did collect;</div>
+   <div class="i0">  Secesh “couldn’t see it”&mdash;he found he was matched,</div>
+   <div class="i0">  Had counted his chickens before they were hatched.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">To fence in the Union, without any <em>bars</em>,</div>
+   <div class="i0">  Old Abe is at work by the light of the <em>Stars</em>;</div>
+   <div class="i0">  It soon will be finished, and when he is through,</div>
+   <div class="i0">  He’ll paint it all over with Red, White and Blue.</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--015.png--><a name="Page_13" id="Page_13"></a><span class="pagenum">[Pg 13]</span>
+Hurrah for the Land we Love.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>A Life on the Ocean Wave.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Hurrah for the land we love!</div>
+   <div class="i1">    Hurrah for the laws we keep!</div>
+   <div class="i0">  Our Banner we’ve nailed above,</div>
+   <div class="i1">    And our Faith is anchored deep!</div>
+   <div class="i0">  Let the trembling knave betray,</div>
+   <div class="i1">    Let the paltry changeling fly;</div>
+   <div class="i0">  There will come an answering day,</div>
+   <div class="i1">    For our Cause can never die.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i0">Then, hurrah for the land we love,</div>
+   <div class="i1">    And hurrah for the laws we keep!</div>
+   <div class="i0">  Our Banner is nailed above,</div>
+   <div class="i1">    And our Faith is anchored deep!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">A lesson the traitors teach,</div>
+   <div class="i1">    And a lesson the cowards give,</div>
+   <div class="i0">  ’Tis easy the Right to preach,</div>
+   <div class="i1">    But ’tis harder the Right to live!</div>
+   <div class="i0">  We laugh at the weak-kneed crew</div>
+   <div class="i1">    Who shiver on Faction’s shore;</div>
+   <div class="i0">  But with Brothers yet firm and true,</div>
+   <div class="i1">    We’ll meet Disunion’s roar.</div>
+   <div class="i4">              Then hurrah, etc.</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--016.png--><a name="Page_14" id="Page_14"></a><span class="pagenum">[Pg 14]</span>
+The Flag of the Free.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>O saw ye the Lass with the bonny blue E’en?</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Oh saw ye the Flag with the Thirty-four Stars?</div>
+   <div class="i0">  ’Tis red with the glories of Liberty’s wars;</div>
+   <div class="i0">  ’Tis bright as the sunbeam, and blue as the sky,</div>
+   <div class="i0">  ’Tis the loveliest banner that waveth on high.</div>
+   <div class="i0">  The home of that Flag is each patriot’s heart&mdash;</div>
+   <div class="i0">  From Freedom and Union it never can part;</div>
+   <div class="i0">  For wherever it floateth, on land or on sea,</div>
+   <div class="i0">  Every nation proclaims it the Flag of the Free!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Though the hand of dark Treason its luster would mar,</div>
+   <div class="i0">  It shall yield not a stripe, it shall lose not a star;</div>
+   <div class="i0">  But forevermore planted on Liberty’s rock,</div>
+   <div class="i0">  Every storm it will breast, and defy every shock.</div>
+   <div class="i0">  While the broad Mississippi flows down to the main,</div>
+   <div class="i0">  And the blue Alleghanies arise from the plain&mdash;</div>
+   <div class="i0">  While Niagara’s waters unshackled shall be,</div>
+   <div class="i0">  It will wave o’er our Union, the Flag of the Free!</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--017.png--><a name="Page_15" id="Page_15"></a><span class="pagenum">[Pg 15]</span>
+Gathering Song.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Bonny Boat.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Oh, gayly sound the bugles shrill,</div>
+   <div class="i1">    Adown the mountain-glen,</div>
+   <div class="i0">  And loudly on the breezes thrill</div>
+   <div class="i1">    The songs of loyal men!</div>
+   <div class="i0">  Still marching on with iron tramp</div>
+   <div class="i1">    To battle’s wild accords,</div>
+   <div class="i0">  They point to vile Rebellion’s camp,</div>
+   <div class="i1">    And clash their fathers’ swords!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Oh, proudly throbs each patriot’s heart,</div>
+   <div class="i1">    When, thundering from afar,</div>
+   <div class="i0">  O’er woodland-glen, or mountain-crest,</div>
+   <div class="i1">    Upswells the loud hurrah!</div>
+   <div class="i0">  While trumpet-peal and rattling drum,</div>
+   <div class="i1">    And wild artillery’s roar,</div>
+   <div class="i0">  Proclaim that Freedom’s soldiers come</div>
+   <div class="i1">    As came their sires of yore.</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--018.png--><a name="Page_16" id="Page_16"></a><span class="pagenum">[Pg 16]</span>
+Liberty.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Somebody’s Waiting for Somebody.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Cloudy and dark is the heaven,</div>
+   <div class="i1">    Darksome and doubtful for Liberty;</div>
+   <div class="i0">  But there’s a cloud or two riven,</div>
+   <div class="i1">    Showing the bright light of Liberty;</div>
+   <div class="i0">  Out of the midst of all gloom,</div>
+   <div class="i1">    Shines the fair promise of Liberty&mdash;</div>
+   <div class="i0">  Over each patriot’s tomb,</div>
+   <div class="i1">    Rises the day-star of Liberty,</div>
+   <div class="i1">    Rises the day-star of Liberty!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">There will be battles to fight,</div>
+   <div class="i1">    Battles defending our Liberty!</div>
+   <div class="i0">  There will be traitors to smite,</div>
+   <div class="i1">    Traitors who strike at our Liberty!</div>
+   <div class="i0">  But when our triumph shall come,</div>
+   <div class="i1">    Over the foemen of Liberty,</div>
+   <div class="i0">  Who will consider the sum</div>
+   <div class="i1">    Spent in defense of our Liberty?</div>
+   <div class="i1">    Spent in defense of our Liberty?</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Lift up the Banner of Stars,</div>
+   <div class="i1">    Fling out the colors of Liberty;</div>
+   <div class="i0">  Over all shackles and bars,</div>
+   <div class="i1">    We will march forward to Liberty!</div>
+   <div class="i0">  Union and laws we’ll defend,</div>
+   <div class="i1">    Guided and guarded by Liberty,</div>
+   <div class="i0">  Till, at the glorious end,</div>
+   <div class="i1">    All the world shares in our Liberty,</div>
+   <div class="i1">    All the world shares in our Liberty!</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--019.png--><a name="Page_17" id="Page_17"></a><span class="pagenum">[Pg 17]</span>
+Wife of my Bosom.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Kathleen Mavourneen.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Wife of my bosom, the midnight hangs o’er me,</div>
+   <div class="i1">    And shadow and silence encompass our camp;</div>
+   <div class="i0">  Oh, dark is my heart, like the darkness before me,</div>
+   <div class="i1">    Wife of my bosom, while lonely I tramp;</div>
+   <div class="i0">  ’Tis not that I falter, or fear the red morrow,</div>
+   <div class="i1">    When true men give battle to rebels forsworn,</div>
+   <div class="i0">  But the heart of each soldier may have its own sorrow,</div>
+   <div class="i1">    And ’tis thinking of thee, love, makes mine so forlorn.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Wife of my bosom, the night-hours are lonely,</div>
+   <div class="i1">    And lonesome my heart, as I tread my dark round;</div>
+   <div class="i0">  But through all the dim watches I’ve thought of thee only,</div>
+   <div class="i1">    Wife of my bosom, with yearning profound.</div>
+   <div class="i0">  Now the day breaks, and the drums call to battle,</div>
+   <div class="i1">    While cannon’s deep thunder announces the morn;</div>
+   <div class="i0">  Full gladly I welcome the din and the rattle,</div>
+   <div class="i1">    ’Tis only for thee, wife, my heart is forlorn.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Wife of my bosom, in God’s blessed keeping</div>
+   <div class="i1">    Our lives are still mingled, though parted are we;</div>
+   <div class="i0">  Above us He watcheth, with mercies unsleeping,</div>
+   <div class="i1">    Wife of my bosom, o’er thee and o’er me.</div>
+   <div class="i0">  I dare the wild conflict, where lives must be rended,</div>
+   <div class="i1">    But faith in my bosom now brightens with morn;</div>
+   <div class="i0">  By thy prayers in the past I have still been defended,</div>
+   <div class="i1">    And He whom we trust will not leave thee forlorn.</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--020.png--><a name="Page_18" id="Page_18"></a><span class="pagenum">[Pg 18]</span>
+The Union Sacrifice.</h3>
+
+<p class="center smaller">BY MRS. METTA. V. VICTOR.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0a">  “Who will save the land we cherish?</div>
+   <div class="i1">    People! what have you to give,</div>
+   <div class="i0">  That, our country may not perish&mdash;</div>
+   <div class="i1">    That our liberties may live?”</div>
+ </div>
+ <div class="stanza">
+   <div class="i0"> Hark! the answer quickly thrilling:&mdash;</div>
+   <div class="i1a">    “<em>Half a million volunteers</em></div>
+   <div class="i0">  <em>Rally round our standard, filling</em></div>
+   <div class="i1">    <em>Freedom’s air with freemen’s cheers!</em></div>
+ </div>
+ <div class="stanza">
+   <div class="i0a">  “See our men go forth to battle,</div>
+   <div class="i1">    Take the soldier’s hardy fare,</div>
+   <div class="i0">  Face the fearful cannon’s rattle,</div>
+   <div class="i1">    Danger, death and drudgery bear.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0a">  “What give you, heroic women,</div>
+   <div class="i1">    Loving mothers, tender wives?”</div>
+   <div class="i0">  Comes the answer superhuman:</div>
+   <div class="i1a">  “<em>We give up our dear ones’ lives!</em></div>
+ </div>
+ <div class="stanza">
+   <div class="i0a">  “We remain at home to suffer&mdash;</div>
+   <div class="i1">    Not to rest in idle ease.</div>
+   <div class="i0">  Men’s stern duties may be rougher,</div>
+   <div class="i1">    But they can not equal these;&mdash;</div>
+ </div>
+ <div class="stanza">
+<!--021.png--><a name="Page_19" id="Page_19"></a><span class="pagenum">[Pg 19]</span>
+   <div class="i0a">  “Nights of wretched, restless tossing,</div>
+   <div class="i1">    Guessing at the toils unshared&mdash;</div>
+   <div class="i0">  Fields and streams at midnight crossing,</div>
+   <div class="i1">    Keeping lonely picket guard;</div>
+ </div>
+ <div class="stanza">
+   <div class="i0a">  “Days of terror and of weeping&mdash;</div>
+   <div class="i1">    Of suspense that holds the breath,</div>
+   <div class="i0">  While the rosy infant, sleeping,</div>
+   <div class="i1">    Dreams not of its father’s death.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0a">  “News that comes too sure and often</div>
+   <div class="i1">    To the mothers at their work,&mdash;</div>
+   <div class="i0">  With no circumstance to soften</div>
+   <div class="i1">    All the woes that in it lurk&mdash;</div>
+ </div>
+ <div class="stanza">
+   <div class="i0a">  “How the sons, at home surrounded</div>
+   <div class="i1">    By their fond and patient care,</div>
+   <div class="i0">  On the battle-field lie wounded,</div>
+   <div class="i1">    Dying, dead,&mdash;no mother there!”</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Rich men give up golden treasures&mdash;</div>
+   <div class="i1">    Money, ships and merchandise;</div>
+   <div class="i0">  Brave men give up care and pleasures</div>
+   <div class="i1">    For the liberties they prize!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">But no holier gifts are proffered</div>
+   <div class="i1">    By the hero’s heart and hand,</div>
+   <div class="i0">  Than the sacrifices offered</div>
+   <div class="i1">    By the <em>women</em> of the Land!</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--022.png--><a name="Page_20" id="Page_20"></a><span class="pagenum">[Pg 20]</span>
+Blue Jackets, Fall in!</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Bonny Dundee.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Let the plotters of treason their standard forsake,</div>
+   <div class="i0">  And abandon the eagle for vulture or snake;</div>
+   <div class="i0">  But the man who’s a true man, wherever he be,</div>
+   <div class="i0">  Follows only one banner&mdash;the Flag of the Free.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i0">Then sound to the color! Blue Jackets, fall in!</div>
+   <div class="i0">  There’s a march to be made, and a battle to win!</div>
+   <div class="i0">  There are rebels and traitors to scour from the lea,</div>
+   <div class="i0">  So make room for our banner&mdash;the Flag of the Free.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">To the soft southern breezes our colors are spread,</div>
+   <div class="i0">  By the bravest and noblest they’re followed and led,</div>
+   <div class="i0">  And wherever they wave, in the battle’s red van,</div>
+   <div class="i0">  They are symbols of justice and freedom for man.</div>
+   <div class="i4">                Then sound to the color, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Jeff. Davis may menace, and Beauregard rage,</div>
+   <div class="i0">  And defyingly strut their brief hour on the stage;</div>
+   <div class="i0">  But their empire is ruin&mdash;their triumph is shame,</div>
+   <div class="i0">  And the wrath they provoke will consume them like flame.</div>
+   <div class="i4">                Then sound to the color, etc.</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--023.png--><a name="Page_21" id="Page_21"></a><span class="pagenum">[Pg 21]</span>
+Song of the Zouaves.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>The Plains of Mexico.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Dash on, dash on, my gallant Zouaves,</div>
+   <div class="i1">    Where dangers darkly frown;</div>
+   <div class="i0">  Let Freedom bravely nerve your arms,</div>
+   <div class="i1">    Strike every traitor down.</div>
+   <div class="i0">  What though their murd’rous squadrons stand,</div>
+   <div class="i1">    In stern and fierce array;</div>
+   <div class="i0">  We’ll make them feel our sweeping charge,</div>
+   <div class="i1">    And quickly clear the way.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">This Union, which so long hath been</div>
+   <div class="i1">    The shelt’ring home of all</div>
+   <div class="i0">  Fair Freedom’s valiant, holy band,</div>
+   <div class="i1">    Shall not by traitors fall;</div>
+   <div class="i0">  But it will stand, through storm and strife,</div>
+   <div class="i1">    The home of Freedom’s band,</div>
+   <div class="i0">  And naught shall cause its overthrow,</div>
+   <div class="i1">    While strength lies in our hand.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Though years may roll their onward course,</div>
+   <div class="i1">    Our hands shall ne’er be stayed,</div>
+   <div class="i0">  Till Freedom’s land be free from strife,</div>
+   <div class="i1">    And in sweet peace arrayed.</div>
+   <div class="i0">  And now, farewell to home and friends,</div>
+   <div class="i1">    And if we ne’er return,</div>
+   <div class="i0">’Twill be because the gallant Sixth</div>
+   <div class="i1">    All death and danger spurn.</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--024.png--><a name="Page_22" id="Page_22"></a><span class="pagenum">[Pg 22]</span>
+The Northmen are Coming.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>I’m Going to be Married.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">The Northmen are coming, Oho! oho!</div>
+   <div class="i0">  The Northmen are coming, Oho! oho!</div>
+   <div class="i2">      The Northmen, the Northmen,</div>
+   <div class="i2">      The warriors of Freedom!</div>
+   <div class="i0">  The Northmen are coming, Oho! oho!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Their star-spangled banners I see, I see!</div>
+   <div class="i0">  The plume-crested horsemen I see, I see!</div>
+   <div class="i1">    Down mountain and valley the hosts are streaming,</div>
+   <div class="i0">  And shouting the battle-cry, “One and Free.”</div>
+   <div class="i4">              The Northmen are coming, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">The peal of their bugles I hear, I hear!</div>
+   <div class="i0">  The clangor of trumpets I hear, I hear!</div>
+   <div class="i1">    The banners outflame like the blazing morn,</div>
+   <div class="i0">  O’er billows of bayonet, sword and spear.</div>
+   <div class="i4">              The Northmen are coming, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">With rattle of musket they come, they come!</div>
+   <div class="i0">  With thunder of cannon, they come, they come!</div>
+   <div class="i1">    With tempest of fire, and storm of steel,</div>
+   <div class="i0">  To drive out the traitors from Freedom’s home.</div>
+   <div class="i4">              The Northmen are coming, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">The boom of their cannon is Tyranny’s knell;</div>
+   <div class="i0">  Wherever they battle shall Liberty dwell;</div>
+   <div class="i1">    They fight for the holiest hope of man,</div>
+   <div class="i0">  They triumph with Washington, Bruce and Tell.</div>
+   <div class="i4">              The Northmen are coming, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">They come with the banners our sires unfurled,</div>
+   <div class="i0">  Unfurled for the exile, the bondman, the world,</div>
+   <div class="i1">    And Heaven shall speed their victorious march,</div>
+   <div class="i0">  Till Liberty’s foes to the dust be hurled.</div>
+   <div class="i4">              The Northmen are coming, etc.</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--025.png--><a name="Page_23" id="Page_23"></a><span class="pagenum">[Pg 23]</span>
+The Volunteer Yankee Doodle of ’61.</h3>
+
+<p class="center smaller">Copied by permission of <span class="smcap">Horace Waters</span>, Music Publisher,<br />
+481 Broadway, N. Y., owner of the copyright.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Yankee Doodle comes to town,</div>
+   <div class="i1">    Walking on his feet, sir!</div>
+   <div class="i0">  Shouldered gun and soldier’s gown,</div>
+   <div class="i1">    Yankee can’t be beat, sir!</div>
+   <div class="i0">  In his bosom burns a love</div>
+   <div class="i1">    For his glorious country,</div>
+   <div class="i0">  Sparkling like the stars above,</div>
+   <div class="i1">    Ay! much less it won’t be.</div>
+   <div class="i0">  Yankee Doodle, keep it up;</div>
+   <div class="i1">    Yankee doodle dandy,</div>
+   <div class="i0">  Plant your bayonet on the top,</div>
+   <div class="i1">    And wi’ the gun be handy!</div>
+   <div class="i4">              Yankee Doodle, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Yankee Doodle marches on</div>
+   <div class="i1">    Till the foes he’ll meet, sir!</div>
+   <div class="i0">  Shoots at least a dozen down&mdash;</div>
+   <div class="i1">    Yankee can’t be beat, sir!</div>
+   <div class="i0">  For the Stars and Stripes he’ll fight,</div>
+   <div class="i1">    For the Constitution;</div>
+   <div class="i0">  Put the enemy to flight,</div>
+   <div class="i1">    End the Revolution.</div>
+   <div class="i0">  Yankee Doodle, keep it up;</div>
+   <div class="i1">    Yankee doodle dandy,</div>
+   <div class="i0">  Plant your bayonet on the top,</div>
+   <div class="i1">    And wi’ the gun be handy!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Victory gained, he takes his ease</div>
+   <div class="i1">    At his country seat, sir!</div>
+   <div class="i0">  Following the arts of peace,</div>
+   <div class="i1">    Yankee can’t be beat, sir!</div>
+   <div class="i0">  Plenty yields his native soil,</div>
+   <div class="i1">    Faithful to his labor;</div>
+   <div class="i0">  And the Lord rewards his toil,</div>
+   <div class="i1">    Grants him every favor.</div>
+   <div class="i0">  Yankee Doodle, keep it up;</div>
+   <div class="i1">    Yankee doodle dandy,</div>
+   <div class="i0">  Plant your corn, and reap your crop,</div>
+   <div class="i1">    And wi’ the plough be handy!</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--026.png--><a name="Page_24" id="Page_24"></a><span class="pagenum">[Pg 24]</span>
+Flag Song.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>The Land of the Leal.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Come, lift it on high, boys!</div>
+   <div class="i0">  Once more let it fly, boys,</div>
+   <div class="i0">  We’ll fight and we’ll die</div>
+   <div class="i1">    For the Red, White and Blue!</div>
+   <div class="i0">  ’Twas hallowed before, boys,</div>
+   <div class="i0">  In battles of yore, boys,</div>
+   <div class="i0">  We’ll guard it once more</div>
+   <div class="i1">    With our bosoms so true!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Then fling out the flag, boys,</div>
+   <div class="i0">  From spar and from crag, boys,</div>
+   <div class="i0">  No freeman shall lag</div>
+   <div class="i1">    While there’s fighting to do:</div>
+   <div class="i0">  To the front of the fray, boys,</div>
+   <div class="i0">  We’ll soon find the way, boys,</div>
+   <div class="i0">  And yet win the day</div>
+   <div class="i1">    For our Red, White and Blue!</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--027.png--><a name="Page_25" id="Page_25"></a><span class="pagenum">[Pg 25]</span>
+Our Country, Now and Ever.</h3>
+
+<p class="center smaller">Copied by permission of <span class="smcap">Horace Waters</span>, Music Publisher,<br />
+481 Broadway, N. Y., owner of the copyright.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Our Country, now and ever!</div>
+   <div class="i1">    Land of the good and free!</div>
+   <div class="i0">  What daring hand would sever</div>
+   <div class="i1">    The ties of Liberty?</div>
+   <div class="i0">  Let him be known as traitor,</div>
+   <div class="i1">    And traitor shall he be;</div>
+   <div class="i0">  Who would insult this nation</div>
+   <div class="i1">    Must first himself be free.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">For such are slaves and cowards&mdash;</div>
+   <div class="i1">    Their names a thing of shame;</div>
+   <div class="i0">  To endless time our Union</div>
+   <div class="i1">    Will but increase in fame.</div>
+   <div class="i0">  Fight, comrades, for our nation,</div>
+   <div class="i1">    For Freedom’s holy light;</div>
+   <div class="i0">  In union is salvation,</div>
+   <div class="i1">    God will protect the right.</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--028.png--><a name="Page_26" id="Page_26"></a><span class="pagenum">[Pg 26]</span>
+My Love he is a Zou-zu.</h3>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+    <div class="i0">My love is a Zou-zu so gallant and bold,</div>
+   <div class="i0">  He’s rough and he’s handsome, scarce nineteen years old,</div>
+   <div class="i0">  To show off in Washington, he has left his own dear,</div>
+   <div class="i0">  And my heart is a-breaking because he’s not here.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i0">For his spirit was brave; it was fierce to behold,</div>
+   <div class="i0">  In a young man bred a Zou-zu, only nineteen years old.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">His parents taught him to be a Cavalier,</div>
+   <div class="i0">  But the life of a Zou-zu he much did prefer;</div>
+   <div class="i0">  For his heart’s with his Country in right or in wrong,</div>
+   <div class="i0">  And in Richmond with Burnside, he’ll be afore long.</div>
+   <div class="i4">                             For his spirit, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">My fond heart is beating for him constantly,</div>
+   <div class="i0">  But I fear his affections may waver from me;</div>
+   <div class="i0">  For a sweetheart can be found in each State, I am told,</div>
+   <div class="i0">  By a young man, a Zou-zu, only nineteen years old.</div>
+   <div class="i4">                             For his spirit, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">And now for my Zou-zu I grieve and repine,</div>
+   <div class="i0">  For fear that his brave heart may never be mine;</div>
+   <div class="i0">  All the wealth of Jeff. Davis in cotton or gold,</div>
+   <div class="i0">  I would give for my Zou-zu, only nineteen years old.</div>
+   <div class="i4">                             For his spirit, etc.</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--029.png--><a name="Page_27" id="Page_27"></a><span class="pagenum">[Pg 27]</span>
+The Stripes and Stars.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>The Low-backed Car.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Let cowards shirk their duty,</div>
+   <div class="i1">    And falter from the fray;</div>
+   <div class="i0">  My post I’ll find, nor shrink behind,</div>
+   <div class="i1">    When honor calls away.</div>
+   <div class="i0">  For Union and for Freedom,</div>
+   <div class="i1">    I’ll wield a sword or gun,</div>
+   <div class="i0">  And take my stand, for laws and land,</div>
+   <div class="i1">    Till the battle’s nobly won.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i0">For I follow the Stripes and Stars,</div>
+   <div class="i0">  No matter for wounds or scars,</div>
+   <div class="i1">    And I’ll act my part,</div>
+   <div class="i1">    With my arm and heart,</div>
+   <div class="i0">  In defense of the Stripes and Stars.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">The truth is past denying,</div>
+   <div class="i1">    That danger’s close at hand,</div>
+   <div class="i0">  And I do love, all things above,</div>
+   <div class="i1">    My own dear native land.</div>
+   <div class="i0">  So where the conflict rages,</div>
+   <div class="i1">    And where our foemen be,</div>
+   <div class="i0">  To stand or fall, at Union’s call,</div>
+   <div class="i1">    There is the place for me. &emsp; [<i>Chorus.</i></div>
+ </div>
+ <div class="stanza">
+   <div class="i0">May God bless those who love me,</div>
+   <div class="i1">    And those I love defend;</div>
+   <div class="i0">  If life I give, to those who live</div>
+   <div class="i1">    My dear ones I commend.</div>
+   <div class="i0">  But while the cannon’s booming,</div>
+   <div class="i1">    And trumpets loudly blare,</div>
+   <div class="i0">  The Union’s cause, the land and laws,</div>
+   <div class="i1">    Must be my only care. &emsp; [<i>Chorus.</i></div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--030.png--><a name="Page_28" id="Page_28"></a><span class="pagenum">[Pg 28]</span>
+Hark to the Tread.</h3>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Hark! hark! to the tread</div>
+   <div class="i1">    Of men of olden time,</div>
+   <div class="i0">  The footsteps of the mighty dead</div>
+   <div class="i1">    Still sounding on sublime.</div>
+   <div class="i0">  Our Union’s strong foundations</div>
+   <div class="i1">    They planted broad and deep,</div>
+   <div class="i0">  And we, among the nations,</div>
+   <div class="i1">    Our own proud place will keep!</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i4">      Join hearts! join hands!</div>
+   <div class="i3">    A wreath of glory twine,</div>
+   <div class="i3">    Of palm and mountain pine.</div>
+   <div class="i4">      Strike hands!</div>
+   <div class="i4">      The Union stands!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Now, now is the hour</div>
+   <div class="i1">    To let foul Treason know,</div>
+   <div class="i0">  That patriot legions have the power</div>
+   <div class="i1">    To work its overthrow;</div>
+   <div class="i0">  That while the conflict rages,</div>
+   <div class="i1">    And hearts are sorely tried,</div>
+   <div class="i0">  The <span class="smcap">Hand</span> that guides the ages</div>
+   <div class="i1">    Is lifted on our side.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Tell, tell to your sons</div>
+   <div class="i1">    The story of your sires,</div>
+   <div class="i0">  And that the pledge forever runs</div>
+   <div class="i1">    To guard their sacred fires.</div>
+   <div class="i0">  Tell them the great <span class="smcap">Avenger</span></div>
+   <div class="i1">    Unsheathed his awful sword,</div>
+   <div class="i0a">  When <span class="smcap">Freedom</span> was in danger,</div>
+   <div class="i1">    And smote the rebel horde!</div>
+  </div>
+</div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--031.png--><a name="Page_29" id="Page_29"></a><span class="pagenum">[Pg 29]</span>
+The Old Flag Alone.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Old Folks at Home.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Strongly the traitors now are banded,</div>
+   <div class="i1">    Fierce are they grown,</div>
+   <div class="i0">  By rebel demagogues commanded,</div>
+   <div class="i1">    Laws overthrown;</div>
+   <div class="i0">  Cursing the banner of their fathers,</div>
+   <div class="i1">    Madly they swarm,</div>
+   <div class="i0">  Hurling against the Rock of Union,</div>
+   <div class="i1">    Daring Rebellion’s storm.</div>
+   <div class="i2">        But true hearts can never falter,</div>
+   <div class="i3">          Now their faith is shown;</div>
+   <div class="i2">        So we stand by Freedom’s altar,</div>
+   <div class="i3">          True to the Old Flag alone!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Once in the land we all were true men,</div>
+   <div class="i1">    Joined hand in hand;</div>
+   <div class="i0">  Now Treason’s madness makes them foemen,</div>
+   <div class="i1">    Cumbering the land;</div>
+   <div class="i0">  So we must treat them as we find them,</div>
+   <div class="i1a">    “Enemies in war;”</div>
+   <div class="i0">  Fighting against the Flag of Union,</div>
+   <div class="i1">    Friends they can never be, more.</div>
+   <div class="i2">        Our true hearts shall never falter,</div>
+   <div class="i3">          Here our faith is shown,</div>
+   <div class="i2">        Standing now by Freedom’s altar,</div>
+   <div class="i3">          True to the Old Flag alone!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--032.png--><a name="Page_30" id="Page_30"></a><span class="pagenum">[Pg 30]</span>
+The Birth of Our Banner.</h3>
+
+<p class="center smaller">BY ROBERT M. HART.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Columbia, the Gem of the Ocean.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">When the dawn of creation was budding,</div>
+   <div class="i1">    To blossom in bright, balmy day,</div>
+   <div class="i0">  The Goddess of Light, at her waking,</div>
+   <div class="i1">    Was shrouded with curtains of spray,</div>
+   <div class="i0">  That rose as the incense of morning,</div>
+   <div class="i1">    From valleys resplendent with dew,</div>
+   <div class="i0">  To deck the broad ocean of distance</div>
+   <div class="i1">    In tints of the White, Red and Blue.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">And far in the blue dome of heaven,</div>
+   <div class="i1">    Were stars with a soft, holy ray,</div>
+   <div class="i0">  That have shone in an unbroken union</div>
+   <div class="i1">    While ages have mouldered away;</div>
+   <div class="i0">  And Freedom, when journeying hither,</div>
+   <div class="i1">    The earth with its blessings to strew,</div>
+   <div class="i0">  Has gathered these trophies of glory,</div>
+   <div class="i1">    As gems for the White, Red and Blue.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">When man braved the wrath of Jehovah,</div>
+   <div class="i1">    The flood-gates of heaven arose</div>
+   <div class="i0">  To deluge the earth, in his anger,</div>
+   <div class="i1">    And drive from existence his foes;</div>
+   <div class="i0">  Still justice was tempered with mercy&mdash;</div>
+   <div class="i1">    On cloud-crested banners he drew</div>
+   <div class="i0">  His promise to all generations,</div>
+   <div class="i1">    In symbols of White, Red and Blue.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">And thus is our Banner of Freedom</div>
+   <div class="i1">    But tints of the glories above</div>
+   <div class="i0">  Of Him who has made us a nation,</div>
+   <div class="i1">    And bound us with garlands of love&mdash;</div>
+   <div class="i0">  Which none on the earth can dissever,</div>
+   <div class="i1">    For each on our altars renew</div>
+   <div class="i0">  Our oath of unshaken devotion</div>
+   <div class="i1">    And trust in the White, Red and Blue.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 lang="la"><!--033.png--><a name="Page_31" id="Page_31"></a><span class="pagenum">[Pg 31]</span>
+“E Pluribus Unum.”</h3>
+
+<p class="center smaller">BY JOHN PIERPONT.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Star-Spangled Banner.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">The harp of the minstrel with melody rings</div>
+   <div class="i1">    When the Muses have taught him to touch and to tune it;</div>
+   <div class="i0">  But though it may have a full octave of strings,</div>
+   <div class="i1">    To both maker and minstrel the harp is a unit.</div>
+   <div class="i0">  So the power that creates our republic of States,</div>
+   <div class="i0">  Into harmony brings them at different dates;</div>
+   <div class="i1">    And the thirteen or thirty, the Union once done,</div>
+   <div class="i1">    Are “<i lang="la">E Pluribus Unum</i>”&mdash;of many made one.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">The science that weighs in her balance the spheres,</div>
+   <div class="i1">    And watched them since first the Chaldean began it,</div>
+   <div class="i0">  Now and then, as she counts them and measures their years,</div>
+   <div class="i1">    Brings into our system and names a new planet.</div>
+   <div class="i0">  Yet the old and new stars&mdash;Venus, Neptune and Mars,</div>
+   <div class="i0">  As they drive round the sun their invisible cars,</div>
+   <div class="i1">    Whether faster or slower their races they run,</div>
+   <div class="i1">    Are “<i lang="la">E Pluribus Unum</i>”&mdash;of many made one.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Of that system of spheres, should but one fly the track,</div>
+   <div class="i1">    Or with others conspire for a general dispersion,</div>
+   <div class="i0">  By the great central orb they would all be brought back,</div>
+   <div class="i1">    And held, each in her place, by a wholesome coercion.</div>
+   <div class="i0">  Should one daughter of light be indulged in her flight,</div>
+   <div class="i0">  They would all be engulfed by old Chaos and Night;</div>
+   <div class="i1">    So must none of our sisters be suffered to run,</div>
+   <div class="i1">    For, “<i lang="la">E Pluribus Unum</i>”&mdash;we all go if one.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Let the demon of discord our melody mar,</div>
+   <div class="i1">    Or Treason’s red hand rend our Union asunder,</div>
+   <div class="i0">  Break one string from our harp, or extinguish one star,</div>
+   <div class="i1">    The whole system’s ablaze with its lightning and thunder.</div>
+   <div class="i0">  Let the discord be hushed! Let the traitors be crushed!</div>
+   <div class="i0">  Though “Legion” their name, all with victory flushed!</div>
+   <div class="i1">    For aye must our motto stand, fronting the sun:</div>
+   <div class="i1">    “<i lang="la">E Pluribus Unum</i>”&mdash;<em>Though many, we’re</em> <span class="muchsmaller">ONE</span>.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--034.png--><a name="Page_32" id="Page_32"></a><span class="pagenum">[Pg 32]</span>
+The Northern Hurrah.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Sprig of Shillaly</i>.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Oh, brave is the soul of a true Union man!</div>
+   <div class="i0">  He arms for the battle&mdash;he springs to the van,</div>
+   <div class="i1">    To the war-shout of freemen&mdash;the Northern Hurrah!</div>
+   <div class="i0">  His heart bears no malice&mdash;his lips have no lie!</div>
+   <div class="i0">  For the old Constitution his pulses beat high;</div>
+   <div class="i0">  And in camp or in action, in march or at rest,</div>
+   <div class="i0">  ’Tis the love of Our Union that leaps from his breast</div>
+   <div class="i1">    In the war-shout of freemen&mdash;the Northern Hurrah!</div>
+   <div class="i4">                Hurrah! hurrah! hurrah!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Oh, the slogan of Scotland is startling and shrill,</div>
+   <div class="i0">  And the loud Marseillaise every Frenchman will thrill;</div>
+   <div class="i1">    But there’s never a shout like the Northern Hurrah!</div>
+   <div class="i0">  Let the Turkman cry “Allah!” while charging his foe&mdash;</div>
+   <div class="i0">  And the Briton, “St. George!” with each resolute blow;</div>
+   <div class="i0">  But the wildest of war-cries, the slogan most grand,</div>
+   <div class="i0">  Is the chorus that leaps from the heart of our land</div>
+   <div class="i1">    In the war-shout of freedom&mdash;the Northern Hurrah!</div>
+   <div class="i4">                Hurrah! hurrah! hurrah!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">From the mountains of Hampshire, the headlands of Maine,</div>
+   <div class="i0">  Alleghany’s blue peaks and Nevada’s high chain,</div>
+   <div class="i1">    Rolleth down, like the thunder, this Northern Hurrah;</div>
+   <div class="i0">  And the rocks and the vales, and the waters profound,</div>
+   <div class="i0">  And the forests and prairies re-echo the sound;</div>
+   <div class="i0">  And the voice of great cities, from east and from west,</div>
+   <div class="i0">  Swells the shout of the free for the land they love best,</div>
+   <div class="i1">    In a war-hymn for freedom&mdash;the Northern Hurrah!</div>
+   <div class="i4">                Hurrah! hurrah! hurrah!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--035.png--><a name="Page_33" id="Page_33"></a><span class="pagenum">[Pg 33]</span>
+The Harp of Old Erin and Banner of Stars.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>St. Patrick’s Day</i>.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">The war-trump has sounded, our rights are in danger;</div>
+   <div class="i1">    Shall the brave sons of Erin be deaf to the call,</div>
+   <div class="i0">  When freedom demands of both native and stranger,</div>
+   <div class="i1">    Their aid, lest the greatest of nations should fall?</div>
+   <div class="i0">  Shall this banner, so dear to the exiles of Gael,</div>
+   <div class="i1">    By traitors and rebels, in anarchy’s school,</div>
+   <div class="i0">  Be trailed in the dust, disgraced in the vale,</div>
+   <div class="i1">    While our people, the sov’reign, in equity rule?</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">No: I swear by the love that we bear our old Sire-land,</div>
+   <div class="i1">    And the vows we have pledged to this home of the free,</div>
+   <div class="i0">  As we’d sheathe our swords in the foes of dear Ireland,</div>
+   <div class="i1">    We will use them as freely ’gainst traitors to thee.</div>
+   <div class="i0">  Need we fear for our cause when true hearts uphold it?</div>
+   <div class="i1">    See the men of all nations now march to the wars;</div>
+   <div class="i0">  And shall Erin’s stout hearts stand by and behold it,</div>
+   <div class="i1">    Nor strike in their might for the Banner of Stars?</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">No, no; with their life’s blood they’ll guard the rich treasure;</div>
+   <div class="i1">    See how they respond to the call, “Shoulder Arms!”</div>
+   <div class="i0">  Though endeared by those sacred ties, love beyond measure</div>
+   <div class="i1">    Of bosom-friends, children, and beauty’s sweet charms,</div>
+   <div class="i0">  Yet they leave all behind, and equip for the battle</div>
+   <div class="i1">    Between freedom and rapine, like true sons of Mars;</div>
+   <div class="i0">  They’ll conquer though traitors their cannon may rattle,</div>
+   <div class="i1">    And bring back triumphant the Banner of Stars.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Oh! long may our flags wave in Union together,</div>
+   <div class="i1">    And the harp of green Erin still kiss the same breeze,</div>
+   <div class="i0">  And brave ev’ry storm that beclouds the fair weather,</div>
+   <div class="i1">    Till our harp, like the Stars, floats o’er, rivers and seas.</div>
+   <div class="i0">  God prosper manly soul-heart, on both land and ocean,</div>
+   <div class="i1">    That goes in defiance of danger and scars,</div>
+   <div class="i0">  And send them safe home, to their wives and their sweethearts,</div>
+   <div class="i1">    With the harp of old Erin and Banner of Stars.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--036.png--><a name="Page_34" id="Page_34"></a><span class="pagenum">[Pg 34]</span>
+The Delaware Volunteers.</h3>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Come all you young men that do intend to roam</div>
+   <div class="i0">  From the State of Delaware, a long way from home,</div>
+   <div class="i0">  Cruising down around the banks of the Southern States hi O,</div>
+   <div class="i0">  Through sweet and shady groves,</div>
+   <div class="i0">  Through the rebel States we’ll ramble and we’ll hang Jeff. Davis, O.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">There’s fishes in the Delaware that’s fitting for our use,</div>
+   <div class="i0">  Likewise the sugar-cane that yields to us its juice,</div>
+   <div class="i0">  There’s plenty of good Union men for the Stars and Stripes, you know,</div>
+   <div class="i4">              Cruising down around the banks, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Come all you young girls, and spin us some yarn,</div>
+   <div class="i0">  You can make us clothing to keep ourselves warm,</div>
+   <div class="i0">  And you can knit and spin, my girls, while we can reap and mow;</div>
+   <div class="i4">                  Cruising down around, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">If any of them Southerners dare to come nigh,</div>
+   <div class="i0">  We’ll rush into the States, and conquer or we’ll die;</div>
+   <div class="i0">  We’ll rush into the ranks and strike a powerful blow,</div>
+   <div class="i4">                  Cruising down around, etc.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--037.png--><a name="Page_35" id="Page_35"></a><span class="pagenum">[Pg 35]</span>
+Our Flag.</h3>
+
+<p class="center smaller">BY R. W. MACGOWAN.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>The American Boy.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">We’ll rally round the same old Flag</div>
+   <div class="i1">    Our fathers did of yore,</div>
+   <div class="i0">  And bravely fight beneath those folds</div>
+   <div class="i1">    They hallowed with their gore;</div>
+   <div class="i0">  We’ll guard it as a sacred trust</div>
+   <div class="i1">    With our devoted band,</div>
+   <div class="i0">  And shield it from the treachery</div>
+   <div class="i1">    Of the Southron’s murd’rous hand.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">What though we had a traitor Twiggs,</div>
+   <div class="i1">    An Arnold we’d before;</div>
+   <div class="i0">  But we have still our loyal North,</div>
+   <div class="i1">    That keeps the oath it swore.</div>
+   <div class="i0">  As brave as ever to the breeze</div>
+   <div class="i1">    Our noble Flag’s unfurled,</div>
+   <div class="i0">  The pride and blessing of our land,</div>
+   <div class="i1">    The envy of the world.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">And eager thousands grasp the sword,</div>
+   <div class="i1">    The scabbard thrown away;</div>
+   <div class="i0">  With willing hands and faithful hearts,</div>
+   <div class="i1">    They’re ready for the fray,</div>
+   <div class="i0">  To teach the Southern fratricide</div>
+   <div class="i1">    The Stars and Stripes shall wave</div>
+   <div class="i0">  O’er this the land of liberty,</div>
+   <div class="i1">    The birthplace of the brave.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<p class="p4 center muchsmaller"><!--038.png--><a name="Page_36" id="Page_36"></a><span class="pagenum">[Pg 36]</span>
+RESPECTFULLY DEDICATED TO THE 69TH REG’T., N. Y. S. M.</p>
+
+<h3>Sweet Maid of Erin.</h3>
+
+<p class="center smaller">BY ROBERT M. HART.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Kathleen Mavourneen.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Sweet Maid of Erin, the war-cry is sounding,</div>
+   <div class="i1">    The bugle’s loud pealing is heard o’er the plain,</div>
+   <div class="i0">  While Death on his charger in battle is bounding,</div>
+   <div class="i1">    And leaving behind him our patriot slain.</div>
+   <div class="i0">  Thou hast not forgotten the friends that you parted,</div>
+   <div class="i1">    To battle for country, for God, and our right;</div>
+   <div class="i0">  And sad are thy tears for the lone broken-hearted,</div>
+   <div class="i1">    Who silently languish in grief's fearful night;</div>
+   <div class="i0">  Sweet Maid of Erin, they welcome thy footsteps,</div>
+   <div class="i1">    And pray for thee daily and Erin go Bragh.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Sweet Maid of Erin, the green grass is springing</div>
+   <div class="i1">    Beside where the loved ones of Erin lie low,</div>
+   <div class="i0">  And down in the village the church-bells are ringing&mdash;</div>
+   <div class="i1">    Alas! how thy minstrel is cast down with woe.</div>
+   <div class="i0">  He has not forgotten thy love and affection&mdash;</div>
+   <div class="i1">    The last parting kiss and thy musical sigh&mdash;</div>
+   <div class="i0">  They linger together in fond recollection,</div>
+   <div class="i1">    And cheer him to duty when dangers are nigh.</div>
+   <div class="i0">  Sweet Maid of Erin, the song of thy minstrel</div>
+   <div class="i1">    Is, God bless Columbia and Erin go Bragh.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Sweet Maid of Erin, the Shamrock and Thistle</div>
+   <div class="i1">    Are linked with the Star-crested Banner to-day,</div>
+   <div class="i0">  And, waving in glory where fierce weapons bristle,</div>
+   <div class="i1">    Are emblems of greatness in Freedom’s affray.</div>
+   <div class="i0">  We have not forgotten the fond hope of freemen,</div>
+   <div class="i1">    The home in the West for the true and the brave;</div>
+   <div class="i0">  And Celts ne’er will yield, for the daring shall lead them</div>
+   <div class="i1">    To triumph o’er Treason, or sink in the grave.</div>
+   <div class="i0">  Sweet Maid of Erin, though far in the distance,</div>
+   <div class="i1">    I still love my darling, and Erin go Bragh.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--039.png--><a name="Page_37" id="Page_37"></a><span class="pagenum">[Pg 37]</span>
+Stand by the Union.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Wait for the Wagon.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Fellow-citizens and soldiers! I’ve a word or two to say,</div>
+   <div class="i0">  There’s no use to dodge the question, or to flout the facts away;</div>
+   <div class="i0">  If a man is not a traitor, he’ll not fear to show his hand,</div>
+   <div class="i0">  And unless we all are rebels, we must by the Union stand.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i2">    Stand by the Union! Stand by the Union!</div>
+   <div class="i2">    Stand by the Union! and be on the right side.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">When soldiers’ plumes are dyed with blood, the good old hearty red,</div>
+   <div class="i0">  We’d better mark the knave who wears white feathers on his head;</div>
+   <div class="i0">  While batteries menace Washington, and rebel armies rise,</div>
+   <div class="i0">  A coward or a traitor’s he who prates of “Compromise.”</div>
+   <div class="i4">        Stand by the Union, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">The only Compromise we’ll make is at the cannon’s mouth,</div>
+   <div class="i0">  The only terms of Peace we’ll give&mdash;Submission by the South:</div>
+   <div class="i0">  One only power must rule the land&mdash;it can’t be ruled by two&mdash;</div>
+   <div class="i0">  And we must prove who strongest are&mdash;the Traitors or the True!</div>
+   <div class="i4">        Stand by the Union, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">  ’Tis ours to meet and measure now the powers of Right and Wrong,</div>
+   <div class="i0">  While they are weak with Slavery, in Union we are strong;</div>
+   <div class="i0">  For all that Washington bequeathed to humankind we fight&mdash;</div>
+   <div class="i0">  Hurrah, then, for the Union! and may God protect the Right!</div>
+   <div class="i4">        Stand by the Union, etc.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--040.png--><a name="Page_38" id="Page_38"></a><span class="pagenum">[Pg 38]</span>
+Drummer Boy of the National Greys.</h3>
+
+<p class="center smaller">Copied by permission of <span class="smcap">Horace Waters</span>, Music Publisher,<br />
+481 Broadway, N. Y., owner of the copyright.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">See the gallant Drummer Boy,</div>
+   <div class="i0">  How his face lights up with joy,</div>
+   <div class="i0">  As he takes his envied place</div>
+   <div class="i0">  In the corps of the National Greys.</div>
+   <div class="i1">    Noble Clarie, Patriot Clarie!</div>
+   <div class="i0">  Drummer of the National Greys.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">All the children in the street</div>
+   <div class="i0">  Strive with Clarie to compete,</div>
+   <div class="i0">  As upon his drum he plays</div>
+   <div class="i0">  In the corps of the National Greys.</div>
+   <div class="i1">    Noble Clarie, Warrior Clarie!</div>
+   <div class="i0">  Drummer of the National Greys.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Ah! but Clarie ’ll have to go</div>
+   <div class="i0">  Where his own life-blood may flow,&mdash;</div>
+   <div class="i0">  This he knows, yet firmly stays</div>
+   <div class="i0">  In the corps of the National Greys.</div>
+   <div class="i1">    Noble Clarie, Faithful Clarie!</div>
+   <div class="i0">  Drummer of the National Greys.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Tho’ the direst ills betide,</div>
+   <div class="i0">  Clarie’s heart beats high with pride</div>
+   <div class="i0">  When he hears the shouts of praise</div>
+   <div class="i0">  Echoing for the National Greys.</div>
+   <div class="i1">    Noble Clarie, Hero Clarie!</div>
+   <div class="i0">  Drummer of the National Greys.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Clarie’s bosom knew no fear,</div>
+   <div class="i0">  Tho’ his eye betray’d a tear</div>
+   <div class="i0">  When his Mother’s sadden’d gaze</div>
+   <div class="i0">  Rested on the National Greys.</div>
+   <div class="i1">    Noble Clarie, Loving Clarie!</div>
+   <div class="i0">  Drummer of the National Greys.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0a">  “Never shall the traitor drag</div>
+   <div class="i0">  From its height our Country’s Flag!”</div>
+   <div class="i0">  Thus, he loyalty displays</div>
+   <div class="i0">  In the corps of the National Greys.</div>
+   <div class="i1">    Noble Clarie, Brave young Clarie!</div>
+   <div class="i0">  Drummer of the National Greys.</div>
+ </div>
+ <div class="stanza"><!--041.png--><a name="Page_39" id="Page_39"></a><span class="pagenum">[Pg 39]</span>
+   <div class="i0">  Trusting in the God of love,</div>
+   <div class="i0">  Clarie looks with faith above,</div>
+   <div class="i0">  Pray’r and meekness guide his ways</div>
+   <div class="i0">  In the corps of the National Greys.</div>
+   <div class="i1">    Noble Clarie, Christian Clarie!</div>
+   <div class="i0">  Drummer of the National Greys.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Hark! that musket’s direful sound!</div>
+   <div class="i0">  See the fatal ball rebound!</div>
+   <div class="i0">  Suddenly a piercing cry</div>
+   <div class="i0">  Rends the air and cleaves the sky;</div>
+   <div class="i1">    ’Tis from Clarie, Martyr Clarie!</div>
+   <div class="i0">  Loved of all the National Greys.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Tears, those Soldiers’ eyes suffuse;</div>
+   <div class="i0">  Sad and solemn is the news;</div>
+   <div class="i0">  Clarie rudely from them torn,&mdash;</div>
+   <div class="i0">  From their ranks forever gone.</div>
+   <div class="i1">    Mirthful Clarie, Buoyant Clarie!</div>
+   <div class="i0">  Fav’rite with the National Greys.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Clarie now lies still and cold</div>
+   <div class="i0">  (Only twelve brief summers old)</div>
+   <div class="i0">  Low beneath the mould’ring sod,</div>
+   <div class="i0">  But his soul has gone to God.</div>
+   <div class="i1">    Gentle Clarie, Youthful Clarie!</div>
+   <div class="i0">  Mourn’d of all the National Greys.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Muffled is the rolling drum,</div>
+   <div class="i0">  Hush’d the busy children’s hum,</div>
+   <div class="i0">  Agonized a father’s brow,&mdash;</div>
+   <div class="i0">  All in deep submission bow.</div>
+   <div class="i1">    Spirit Clarie, Blessed Clarie!</div>
+   <div class="i0">  Gather’d with the angels now.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Sadden’d is the humble home,</div>
+   <div class="i0">  There no more his step will come,</div>
+   <div class="i0">  But his songs of praise will rise</div>
+   <div class="i0">  In a home beyond the skies.</div>
+   <div class="i1">    Happy Clarie, Ransom’d Clarie!</div>
+   <div class="i0">  Seraph bright in Paradise.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--042.png--><a name="Page_40" id="Page_40"></a><span class="pagenum">[Pg 40]</span>
+Following the Drum.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Over the Mountain.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Up from the valley deeps,</div>
+   <div class="i1">    Down from the crags,</div>
+   <div class="i0">  Out from the forest-aisles,</div>
+   <div class="i1">    Waving our flags&mdash;</div>
+   <div class="i0">  Marching with warlike tread,</div>
+   <div class="i1">    Forward we come,</div>
+   <div class="i0">  Sons of America,</div>
+   <div class="i1">    Following the drum!</div>
+   <div class="i2">        Shouting our battle-cries,</div>
+   <div class="i3">          Forward we come,</div>
+   <div class="i2">        Sons of America,</div>
+   <div class="i3">          Following the drum!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Down from New England hills,</div>
+   <div class="i1">    Out from New York,</div>
+   <div class="i0">  Over the Jersey plains,</div>
+   <div class="i1">    Strong for our work&mdash;</div>
+   <div class="i0">  From Pennsylvania’s glens,</div>
+   <div class="i1">    From Indiana,</div>
+   <div class="i0">  Up from the O-hi-o,</div>
+   <div class="i1">    Under our banner.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Michigan’s riflemen,</div>
+   <div class="i1">    Oregon’s scouts,</div>
+   <div class="i0">  Landsmen and mariners,</div>
+   <div class="i1">    Mingling their shouts;</div>
+   <div class="i0">  Under the Flag of Stars&mdash;</div>
+   <div class="i1">    Waving still high&mdash;</div>
+   <div class="i0">  Still for the Union, boys,</div>
+   <div class="i1">    Stand we or die!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--043.png--><a name="Page_41" id="Page_41"></a><span class="pagenum">[Pg 41]</span>
+Victory’s Band.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Dixie’s Land.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i1">      We’re marching under the Flag of Union,</div>
+   <div class="i1">      Keeping step in brave communion!</div>
+   <div class="i0">  March away! march away! away! Victory’s band</div>
+   <div class="i1">      Right down upon the ranks of rebels,</div>
+   <div class="i1">      Tramp them underfoot like pebbles,</div>
+   <div class="i0">  March away! march away! away! Victory’s band.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i2">    Oh! we’re marching on to Victory!</div>
+   <div class="i4">                  Hurrah! hurrah!</div>
+   <div class="i2">    In Victory’s band we’ll sweep the land,</div>
+   <div class="i3">      And fight or die for Victory!</div>
+   <div class="i4">                  Away! away!</div>
+   <div class="i3">      We’ll fight or die for Victory!</div>
+ </div>
+ <div class="stanza">
+   <div class="i1">      The rebels want a mongrel nation,</div>
+   <div class="i1">      Union and Confederation!</div>
+   <div class="i0">  March away! march away! away! Victory’s band!</div>
+   <div class="i1">      But we don’t trust in things two-sided,</div>
+   <div class="i1">      And go for Union undivided,</div>
+   <div class="i0">  March away! march away! away! Victory’s band!</div>
+   <div class="i4">    Oh! we’re marching, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i1">      We’re marching down on Dixie’s regions,</div>
+   <div class="i1">      With Freedom’s flag and Freedom’s legions,</div>
+   <div class="i0">  March away! march away! away! Victory’s band!</div>
+   <div class="i1">      We’re rolling down, a “Pending Crisis,”</div>
+   <div class="i1">      With cannon-balls for Compromises,</div>
+   <div class="i0">  March away! march away! away! Victory’s band!</div>
+   <div class="i4">    Oh! we’re marching, etc.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--044.png--><a name="Page_42" id="Page_42"></a><span class="pagenum">[Pg 42]</span>
+Mustering-Chorus.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>The Merry Swiss Boy.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Come arouse, men, arouse, men, the trumpet calls,</div>
+   <div class="i1">    Every patriot must off to the fray! &emsp; [<i>Repeat.</i>]</div>
+   <div class="i2">        The land we love is girt with foes,</div>
+   <div class="i2">        The flame of war still fiercer glows;</div>
+   <div class="i0">  Come, arouse, then, arouse, then, the trumpet calls,</div>
+   <div class="i1">    Every patriot must haste to the fray!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">  ’Tis no time, men, no time, men, for fear or pause,</div>
+   <div class="i1">    While the trumpet is calling away! &emsp; [<i>Repeat.</i>]</div>
+   <div class="i2">        The Union’s heart is rent in twain,</div>
+   <div class="i2">        ’Tis ours to bind its cords again!</div>
+   <div class="i0">  ’Tis no time, men, no time, men, for fear or pause,</div>
+   <div class="i1">    While the trumpet is calling away!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Then, away, men, away, men, to follow our flag,</div>
+   <div class="i1">    Wheresoever it leads the way; &emsp; [<i>Repeat.</i>]</div>
+   <div class="i2">        Let factions cease, let parties die,</div>
+   <div class="i2">        Let Union be our only cry&mdash;</div>
+   <div class="i0">  And away, men, away, men, to follow our flag,</div>
+   <div class="i1">    Wheresoever it leads the way!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--045.png--><a name="Page_43" id="Page_43"></a><span class="pagenum">[Pg 43]</span>
+Begone, Sesesh!</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Begone, Dull Care.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Begone, Sesesh! I bid thee begone from me!</div>
+   <div class="i0">  Begone, Sesesh! you’d better make haste and flee!</div>
+   <div class="i1">      Long time you have been bullying here,</div>
+   <div class="i2">        And fain would Union kill;</div>
+   <div class="i1">      But, we all now swear,</div>
+   <div class="i2">        You never shall have your will!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Old Sesesh! I’ve known you in days gone by,</div>
+   <div class="i0">  Old Sesesh! you wanted to <em>nul-li-fy</em>!</div>
+   <div class="i1">      Long time ago you badgered us,</div>
+   <div class="i2">        And tried, the land to rule,</div>
+   <div class="i1">      But we flogged you well with a <em>Hickory</em> rod,</div>
+   <div class="i2">        In brave old Jackson’s school!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Begone, Sesesh! in South Carolina rest!</div>
+   <div class="i0">  Begone, Sesesh! the snake is your proper crest!</div>
+   <div class="i1">      We’ve found out all your snakish ways,</div>
+   <div class="i2">        And drawn your serpent teeth,</div>
+   <div class="i1">      And wherever the foot of Freedom falls,</div>
+   <div class="i2">        Your head shall lie beneath!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--046.png--><a name="Page_44" id="Page_44"></a><span class="pagenum">[Pg 44]</span>
+The Patriot’s Serenade.</h3>
+
+<p class="center smaller">BY ROBERT M. HART.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Glory, Glory, Hallelujah.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Look ye to our banner floating&mdash;</div>
+   <div class="i0">  Freemen ever fondly doating&mdash;</div>
+   <div class="i0">  Hirelings now so sadly gloating</div>
+   <div class="i1">    At Treason’s fearful sting.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i2">    Glory, glory, be our anthem,</div>
+   <div class="i2">    Glory, glory, be our anthem,</div>
+   <div class="i2">    Praises to our Starry Banner,</div>
+   <div class="i3">      As patriots, let us sing.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Hark! o’er hill and hamlet bounding,</div>
+   <div class="i0">  Shouts of freemen now resounding,</div>
+   <div class="i0">  All our enemies confounding&mdash;</div>
+   <div class="i1">    Our eagle’s on the wing.</div>
+ </div>
+ <div class="stanza">
+   <div class="i2">    <i>Chorus.</i>&mdash;Glory, glory, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Spirits of the great departed!</div>
+   <div class="i0">  Cheer the sad and broken-hearted&mdash;</div>
+   <div class="i0">  Lead to victory those who started</div>
+   <div class="i1">    To fight Rebellion’s king.</div>
+ </div>
+ <div class="stanza">
+   <div class="i2">    <i>Chorus.</i>&mdash;Glory, glory, etc.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--047.png--><a name="Page_45" id="Page_45"></a><span class="pagenum">[Pg 45]</span>
+Rule, Columbia.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Rule, Britannia.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">When tyrants fled our rescued land,</div>
+   <div class="i1">    And Freedom bless’d her sacred shrine,</div>
+   <div class="i0">  Each patriot raised to heaven his hand,</div>
+   <div class="i1">    And swore to guard her rights divine.</div>
+   <div class="i4">              Rule, Columbia!</div>
+   <div class="i4">              The Union still must sway!</div>
+   <div class="i4">              Freemen rule America!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Our land is Freedom’s chosen home,</div>
+   <div class="i1">    To all the world ’tis opened wide;</div>
+   <div class="i0">  To these fair shores let nations come,</div>
+   <div class="i1">    And all our bounteous soil divide.</div>
+   <div class="i4">              Rule, Columbia!</div>
+   <div class="i4">              The Union still must sway!</div>
+   <div class="i4">              Freemen rule America!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">The Union is our children’s dower,</div>
+   <div class="i1">    ’Tis priceless as the air we breathe;</div>
+   <div class="i0">  While rebel arms defy its power,</div>
+   <div class="i1">    Our patriot swords we’ll never sheathe!</div>
+   <div class="i4">              Rule, Columbia!</div>
+   <div class="i4">              The Union still must sway!</div>
+   <div class="i4">              Freemen rule America!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--048.png--><a name="Page_46" id="Page_46"></a><span class="pagenum">[Pg 46]</span>
+The Brave and Free.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>The Pilot.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Oh, comrades! ’tis a fearful strife</div>
+   <div class="i1">    That jars our land this day&mdash;</div>
+   <div class="i0">  When brother strikes at brother’s life,</div>
+   <div class="i1">    And sons their sires betray!</div>
+   <div class="i0">  But He who rules each nation’s right,</div>
+   <div class="i1">    Our sword and shield shall be!</div>
+   <div class="i0">  Fear not! fear not! Jehovah’s might</div>
+   <div class="i1">    Still guards the Brave and Free!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Though rebels swarm on every hand,</div>
+   <div class="i1">    And Treason spreads its snares,</div>
+   <div class="i0">  Our Ship of State, by patriots mann’d,</div>
+   <div class="i1">    The Flag of Stars upbears!</div>
+   <div class="i0">  Behind the clouds is sunshine bright,</div>
+   <div class="i1">    Whose beams we soon shall see!</div>
+   <div class="i0">  Fear not! fear not! Jehovah’s might</div>
+   <div class="i1">    Still guards the Brave and Free!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">No craven doubt shall shake our trust</div>
+   <div class="i1">    In Union’s righteous cause;</div>
+   <div class="i0">  Our motives pure&mdash;our action just&mdash;</div>
+   <div class="i1">    For Freedom’s Land, and Laws!</div>
+   <div class="i0">  Against the foes of man we fight,</div>
+   <div class="i1">    And Victory ours shall be!</div>
+   <div class="i0">  Fear not! fear not! Jehovah’s might</div>
+   <div class="i1">    Still guards the Brave and Free!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--049.png--><a name="Page_47" id="Page_47"></a><span class="pagenum">[Pg 47]</span>
+Sweet is the Fight.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Sparkling and Bright.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i2">          Sweet is the fight</div>
+   <div class="i2">          For Freedom’s right,</div>
+   <div class="i0">  Though our heart’s best blood be streaming;</div>
+   <div class="i2">          By heroes led</div>
+   <div class="i2">          Unto Glory’s bed,</div>
+   <div class="i0">  With lives our land redeeming!</div>
+   <div class="i2">          We seek the fight</div>
+   <div class="i2">          With falchions bright,</div>
+   <div class="i0">  With our hearts in brave communion&mdash;</div>
+   <div class="i2">          Together we’ll stand</div>
+   <div class="i2">          For our glorious land,</div>
+   <div class="i0">  And the cause of the grand old Union!</div>
+ </div>
+ <div class="stanza">
+   <div class="i2">          Oh! who would shrink</div>
+   <div class="i2">          From danger’s brink,</div>
+   <div class="i0">  Or fly from the conflict gory,</div>
+   <div class="i2">          When Ruin complete</div>
+   <div class="i2">          Will attend defeat,</div>
+   <div class="i0">  While Victory crowns with glory!</div>
+   <div class="i2">          We’ll dare the fight.</div>
+   <div class="i2">          For Freedom’s right,</div>
+   <div class="i0">  With hearts in brave communion!</div>
+   <div class="i2">          Together we’ll stand</div>
+   <div class="i2">          For our glorious land,</div>
+   <div class="i0">  And the cause of the grand old Union!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--050.png--><a name="Page_48" id="Page_48"></a><span class="pagenum">[Pg 48]</span>
+Remember Traitors.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Boyne Water.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">When Union ruled our noble land,</div>
+   <div class="i1">    And Liberty’s arms were round her,</div>
+   <div class="i0">  No foemen could her power withstand,</div>
+   <div class="i1">    No danger could astound her.</div>
+   <div class="i0">  But now, in rebel ranks displayed,</div>
+   <div class="i1">    With despot snares behind them,</div>
+   <div class="i0">  Old friends we see as foes arrayed,</div>
+   <div class="i1">    And mark them, as we find them!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">We mark the wretch, where’er he be,</div>
+   <div class="i1">    Who’s false to the land that bore him;</div>
+   <div class="i0">  We’ll mark the knave who swears he’s free,</div>
+   <div class="i1">    Yet brooks a traitor o’er him!</div>
+   <div class="i0">  And more than all, we’ll mark the men</div>
+   <div class="i1">    Whose traitorous inclination</div>
+   <div class="i0">  Would rivet foreign chains again</div>
+   <div class="i1">    O’er Freedom’s chosen nation!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">When strangers sought Columbia’s shore,</div>
+   <div class="i1">    And the wanderer claimed protection,</div>
+   <div class="i0">  We bade them share our peaceful store,</div>
+   <div class="i1">    And asked no mean subjection.</div>
+   <div class="i0">  And now, thank God! when Treason’s band</div>
+   <div class="i1">    Conspire in vile communion,</div>
+   <div class="i0">  We see the sons of every land</div>
+   <div class="i1">    Combined to shield our Union!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--051.png--><a name="Page_49" id="Page_49"></a><span class="pagenum">[Pg 49]</span>
+Beautiful Union.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Beautiful Venice.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Beautiful Union! Liberty’s home!</div>
+   <div class="i0">  More queenly than Greece, more immortal than Rome!</div>
+   <div class="i0">  How fondly thy name in our love is enshrined&mdash;</div>
+   <div class="i0">  How close to all hearts are thy glories entwined;</div>
+   <div class="i0">  For Freedom’s bright banner waves over thy soil,</div>
+   <div class="i0">  And beneath it, secure, every freeman may toil;</div>
+   <div class="i0">  For of all the world’s lands there is no land like thee,</div>
+   <div class="i0">  My Beautiful Union! The Land of the Free!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Beautiful Union! Pride of the earth!</div>
+   <div class="i0">  With thee all the hopes of the people had birth;</div>
+   <div class="i0">  Thy shores are their refuge from tyranny’s ban&mdash;</div>
+   <div class="i0">  Where justice and freedom are pledged unto man!</div>
+   <div class="i0">  And the dastard who doubts thee, the wretch who betrays,</div>
+   <div class="i0">  Accursed of all mankind shall end his vile days!</div>
+   <div class="i0">  For of all the world’s lands, there is no land like thee&mdash;</div>
+   <div class="i0">  Our Beautiful Union! the Land of the Free!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--052.png--><a name="Page_50" id="Page_50"></a><span class="pagenum">[Pg 50]</span>
+The Star-Gemmed Flag.</h3>
+
+<p class="center smaller">Copied by permission of <span class="smcap">Firth, Pond &amp; Co.</span>, Music Publishers,<br />
+547 Broadway, N. Y., owners of the copyright.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Our fathers cleft the ocean wave,</div>
+   <div class="i0">  The birthright of the free to save;</div>
+   <div class="i0">  And when they hail’d these western shores,</div>
+   <div class="i0">  They claim’d them as their own and ours.</div>
+   <div class="i0">  And when a Prince of foreign lands</div>
+   <div class="i0">  His warriors poured upon our strands,</div>
+   <div class="i0">  They spurned the lordlings from their fields,</div>
+   <div class="i0">  And o’er their homes still held their shields.</div>
+   <div class="i0">  Then wave the Flag, our Fathers’ Flag,</div>
+   <div class="i1">    In memories of their bravery;</div>
+   <div class="i0">  Then shout the Flag, our Fathers’ Flag,</div>
+   <div class="i1">    The Star-gemmed Flag of brave hearts and the free.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i0">   Run up the Flag, unfold the Flag,</div>
+   <div class="i1">     Broad as the land, wide as the sea;</div>
+   <div class="i0">   Then wave the Flag, then cheer the Flag,</div>
+   <div class="i1">     The star-gemmed Flag of brave hearts and the free.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Our mothers by our fathers stood,</div>
+   <div class="i0">  As if, in War, they had been wooed;</div>
+   <div class="i0">  Tho’ fragile were their yielding forms</div>
+   <div class="i0">  While rolled the war-cloud and the storms.</div>
+   <div class="i0">  And yet, heroic as their lords,</div>
+   <div class="i0">  They cheered with smiles, with tears, with words.</div>
+   <div class="i0">  But while they trembled at their homes,</div>
+   <div class="i0">  They leaned on God whence victory comes.</div>
+   <div class="i0">  Then shout the Flag, our Mothers’ Flag,</div>
+   <div class="i1">    In memory of their well-spent lives;</div>
+   <div class="i0">  Then wave the Flag, our Mothers’ Flag,</div>
+   <div class="i1">    The Star-gemmed Flag of brave hearts and their wives.</div>
+ </div>
+ <div class="stanza"><!--053.png--><a name="Page_51" id="Page_51"></a><span class="pagenum">[Pg 51]</span>
+   <div class="i0">  Our Sisters, too, were bravely dear,</div>
+   <div class="i0">  They gave their smiles, they wept their tear;</div>
+   <div class="i0">  And rested in their mothers’ arms,</div>
+   <div class="i0">  Or often woke to war’s alarms.</div>
+   <div class="i0">  But while their hearts in sorrows moved,</div>
+   <div class="i0">  And wept the brothers that they loved,</div>
+   <div class="i0">  They knew the strife was for the free,</div>
+   <div class="i0">  Their Country and for Liberty.</div>
+   <div class="i0">  Then hail the Flag, our Sisters’ Flag,</div>
+   <div class="i1">    Its Stars and Stripes their zones shall be;</div>
+   <div class="i0">  Then wave the Flag, our Sisters’ Flag,</div>
+   <div class="i1">    The Star-gemmed Flag our Sisters’ zones shall be.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">A seven-years’ war was past and gone,</div>
+   <div class="i0">  And many a heart was left forlorn;</div>
+   <div class="i0">  But prouder o’er our Western shore,</div>
+   <div class="i0">  Its Eagle-Bird was seen to soar;</div>
+   <div class="i0">  And in his talons, as he flies,</div>
+   <div class="i0">  He bears our Flag of victories;</div>
+   <div class="i0">  And ever shall that Banner be,</div>
+   <div class="i0">  The hope, the shield of Liberty.</div>
+   <div class="i0">  Then shout the Flag, our Country’s Flag,</div>
+   <div class="i1">    The Banner-Flag of Liberty;</div>
+   <div class="i0">  Then wave the Flag, our <span class="smcap">Union’s</span> Flag,</div>
+   <div class="i1">    The Star-gemmed Flag of brave hearts and the free.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">And on the land, and on the sea,</div>
+   <div class="i0">  Wherever roam her sons from thee,</div>
+   <div class="i0">  Our Nation’s Flag shall ope its fold,</div>
+   <div class="i0">  The loved and honored of the world;</div>
+   <div class="i0">  For right, not might shall be its claim,</div>
+   <div class="i0">  As “Flag of Freedom” is its name;</div>
+   <div class="i0">  While Armies shall our emblem bear,</div>
+   <div class="i0">  And Navies our proud bunting wear.</div>
+   <div class="i0">  Then shout the Flag, our Army’s flag,</div>
+   <div class="i1">    The Flag of Right and Liberty;</div>
+   <div class="i0">  Then hail the Flag, our Navy’s Flag,</div>
+   <div class="i1">    The Star-gemmed Flag of brave hearts and the free.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--054.png--><a name="Page_52" id="Page_52"></a><span class="pagenum">[Pg 52]</span>
+Words of Sympathy.</h3>
+
+<p class="center smaller">BY ROBERT M. HART.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Katy Darling.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Oh, they told us you were dead, poor Jeff. Davis,</div>
+   <div class="i1">    That your form was lying stiff and cold</div>
+   <div class="i0">  In the catacombs of Eastern Virginia,</div>
+   <div class="i1">    Where thy virtues were greatly extolled;</div>
+   <div class="i0">  But, oh, ’twas a cruel hoax, Jeff. Davis,</div>
+   <div class="i1">    You’re alive and kicking, we see,</div>
+   <div class="i0">  And there’s many now would hang you, poor Jeff. Davis,</div>
+   <div class="i1">    On the branch of the first sycamore tree.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Your pockets they are empty, poor Jeff. Davis,</div>
+   <div class="i1">    And of gold you are very much in need,</div>
+   <div class="i0">  While starvation mounts the throne close beside you,</div>
+   <div class="i1">    And secession has just gone to seed;</div>
+   <div class="i0">  And, oh, what a sad mistake, Jeff. Davis,</div>
+   <div class="i1">    To think with cotton all alone</div>
+   <div class="i0">  You could frighten Uncle Sam, poor Jeff. Davis,</div>
+   <div class="i1">    And then rob him of half of his home.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Oh, there’s trouble in the South, poor Jeff. Davis,</div>
+   <div class="i1">    And your prestige is going to decay;</div>
+   <div class="i0">  You had better get your duds ready shortly,</div>
+   <div class="i1">    And push forward, an exile, this way,</div>
+   <div class="i0">  We’ll <em>feed</em> you and <em>lodge</em> you, Jeff. Davis&mdash;</div>
+   <div class="i1">    Our kindness you ne’er will forget&mdash;</div>
+   <div class="i0">  We’ll take you out a sailing, poor Jeff. Davis,</div>
+   <div class="i1">    And then land you at Fort Lafayette.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--055.png--><a name="Page_53" id="Page_53"></a><span class="pagenum">[Pg 53]</span>
+Volunteer’s Song.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Free and Easy.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Onward! onward! is the cry now,</div>
+   <div class="i1">    Treason stalks throughout the land;</div>
+   <div class="i0">  To guard our honor each one try now,</div>
+   <div class="i1">    March together, heart and hand.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i1">    So let the Southerners do as they will,</div>
+   <div class="i1">    We will fight for the Union still!</div>
+   <div class="i3">              Fight for the Union!</div>
+   <div class="i3">              Fight for the Union!</div>
+   <div class="i1">    We will fight for the Union still!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Though Revolution, dark as night,</div>
+   <div class="i1">    Enshrouds the Banner of the Free,</div>
+   <div class="i0">  There are none so base that will not fight</div>
+   <div class="i1">    For this great land of Liberty!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">The traitors would the Union sever</div>
+   <div class="i1">    Our fathers worked so hard to form;</div>
+   <div class="i0">  Yet we are for the Union ever,</div>
+   <div class="i1">    Through sunshine, peace, or storm!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Then hear! Oh hear! our country’s call,</div>
+   <div class="i1">    Raise our glorious banner high;</div>
+   <div class="i0">  Come, rally! rally! one and all!</div>
+   <div class="i1">    To save the Union or to die!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--056.png--><a name="Page_54" id="Page_54"></a><span class="pagenum">[Pg 54]</span>
+A Mother’s Hymn in Time of War.</h3>
+
+<p class="center smaller">BY WILLIAM ROSS WALLACE.</p>
+
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Oh Lord of hosts! his country called,</div>
+   <div class="i1">    And nobly to her voice he sprung,</div>
+   <div class="i0">  While o’er his brow our banner flashed,</div>
+   <div class="i1">    Where chargers neighed and trumpets rung.</div>
+   <div class="i0">  There were no tremors in his eye,</div>
+   <div class="i1">    When putting on his warrior-crest;</div>
+   <div class="i0">  And but a tear&mdash;it was when he</div>
+   <div class="i1">    Was clasped unto his mother’s breast!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Oh Father! shield him from the shot;</div>
+   <div class="i1">    But if it is his doom to die,</div>
+   <div class="i0">  May he, with shouts of triumph round,</div>
+   <div class="i1">    Bend on our flag his closing eye&mdash;</div>
+   <div class="i0">  And feeling that his mother’s soul</div>
+   <div class="i1">    Is watching on the field of death;</div>
+   <div class="i0">  Where, though it weeps, yet gives a smile</div>
+   <div class="i1">    Unto her brave boy’s last wild breath.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Oh, proudly will his mother see</div>
+   <div class="i1">    Her Country wreathe his hero-tomb,</div>
+   <div class="i0">  And many a Spring nurse tenderly,</div>
+   <div class="i1">    With nature’s tears, the garland’s bloom!</div>
+   <div class="i0">  How sweet will be the song of praise,</div>
+   <div class="i1">    Where his dear relics peaceful lie!</div>
+   <div class="i0">  How grand&mdash;away exultant thoughts!</div>
+   <div class="i1">    Oh God! he must not, <em>must not</em> die!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--057.png--><a name="Page_55" id="Page_55"></a><span class="pagenum">[Pg 55]</span>
+Away to the Fray.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>The Sea&mdash;the Sea.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Oh, away! away! to the mighty fray,</div>
+   <div class="i1">    To the strife for all most dear;</div>
+   <div class="i0">  There is naught on earth of a rarer worth,</div>
+   <div class="i1">    Than a patriot’s faith sincere!</div>
+   <div class="i0">  And the cause that calls us all this day,</div>
+   <div class="i1">    Is the holiest cause that e’er</div>
+   <div class="i0">  Invoked the aid of a brave man’s blade,</div>
+   <div class="i1">    Or the power of a good man’s prayer.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i1">    Away! away! let cowards stay!</div>
+   <div class="i2">      But honor impels the brave!</div>
+   <div class="i1">    There’s naught but death in a craven’s years,</div>
+   <div class="i2">      And there’s life in a hero’s grave.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">When the cause we serve is a righteous cause,</div>
+   <div class="i1">    And the flag we bear unstained,</div>
+   <div class="i0">  And our patriot steel, for the common weal,</div>
+   <div class="i1">    We lift, with hands unchained,</div>
+   <div class="i0">  There is never a power can bar our path,</div>
+   <div class="i1">    Nor force can bid us turn,</div>
+   <div class="i0">  Till we clasp our brands, with a victor’s hands,</div>
+   <div class="i1">    Or they lie on the funeral urn!</div>
+   <div class="i4">                  Away! away! etc.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--058.png--><a name="Page_56" id="Page_56"></a><span class="pagenum">[Pg 56]</span>
+The Union Gunning Match.</h3>
+
+<p class="center smaller">BY ROBERT M. HART.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Johnny Stole the Ham.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i1">    The Union boys are all out gunning,</div>
+   <div class="i2">      Are all out gunning, are all out gunning&mdash;</div>
+   <div class="i1">    The Union boys are all out gunning&mdash;</div>
+   <div class="i2">      Oh listen to the noise.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">  <i>Chorus</i>&mdash;Around the monster Tree</div>
+   <div class="i4">            That sprung from Liberty,</div>
+   <div class="i3">          ’Twas nurtured by the Free</div>
+   <div class="i4">            And Union-loving boys.</div>
+ </div>
+ <div class="stanza">
+   <div class="i1">    Some <em>game</em> they caught and caged already,</div>
+   <div class="i2">      And caged already, and caged already&mdash;</div>
+   <div class="i1">    Some game they caught and caged already,</div>
+   <div class="i2">      Way down in Lafayette.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">  <i>Chorus</i>&mdash;There we can see the <em>birds</em></div>
+   <div class="i4">            Who traveled North in herds,</div>
+   <div class="i3">          Because of deeds and words</div>
+   <div class="i4">            That Samuel can’t forget.</div>
+ </div>
+ <div class="stanza">
+   <div class="i1">    Our Sam’s awake, and both eyes open,</div>
+   <div class="i2">      And both eyes open, and both eyes open,</div>
+   <div class="i1">    Our Sam’s awake, and both eyes open,</div>
+   <div class="i2">      As umpire of the day.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">  <i>Chorus</i>&mdash;With good and steady aim,</div>
+   <div class="i4">            And ardor none can tame.</div>
+   <div class="i3">          Our boys the match will gain&mdash;</div>
+   <div class="i4">            The laurel bear away.</div>
+ </div>
+ <div class="stanza">
+   <div class="i1">    The stakes are up, the ground all ready,</div>
+   <div class="i2">      The ground all ready, the ground all ready&mdash;</div>
+   <div class="i1">    The stakes are up, the ground all ready,</div>
+   <div class="i2">      And now, boys, blaze away.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">  <i>Chorus</i>&mdash;But hark the sudden news!</div>
+   <div class="i4">            Old Jeff. has got the blues,</div>
+   <div class="i3">          And trembling in his shoes&mdash;</div>
+   <div class="i4">            Secesh has gone astray.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--059.png--><a name="Page_57" id="Page_57"></a><span class="pagenum">[Pg 57]</span>
+The Nation of the Free.</h3>
+
+<p class="center smaller">BY MRS. METTA V. VICTOR.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Oh, mother of a matchless race!</div>
+   <div class="i1">    Columbia, hear our cry;</div>
+   <div class="i0">  The children nursed in your embrace,</div>
+   <div class="i1">    For you will live and die.</div>
+   <div class="i0">  We glory in our fathers’ deeds,</div>
+   <div class="i1">    We love the soil they trod;</div>
+   <div class="i0">  Our heritage we will defend</div>
+   <div class="i1">    And keep, so help us God!</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i0">Rise, rise! Oh Patriots, rise!</div>
+   <div class="i1">    Let waiting millions see!</div>
+   <div class="i0">  What courage thrills, what faith inspires</div>
+   <div class="i1">    The Nation of the Free!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Hail, brothers in a common cause!</div>
+   <div class="i1">    True to your birthright stand!</div>
+   <div class="i0">  The Constitution and the Laws</div>
+   <div class="i1">    Must know no Vandal hand.</div>
+   <div class="i0">  Let foreign foes invidious gaze,</div>
+   <div class="i1">    To see our light expire;</div>
+   <div class="i0">  They’ll shrink in awe before the blaze</div>
+   <div class="i1">  Of Freedom’s deathless fire.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Hark! how the hymns of glory swell</div>
+   <div class="i1">    Above our fathers’ graves!</div>
+   <div class="i0">  Th’ unfaltering men of Seventy-Six</div>
+   <div class="i1">    Begot no race of slaves.</div>
+   <div class="i0">  The blood that bought our sacred right</div>
+   <div class="i1">    Still in their lineage runs;</div>
+   <div class="i0">  No tribute gold, no traitor’s might</div>
+   <div class="i1">    Shall wrest it from their sons.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Shade of heroic Washington!</div>
+   <div class="i1">    Still guard our Native Land!</div>
+   <div class="i0">  Rebuke, rebuke each wavering one,</div>
+   <div class="i1">    Direct each ardent hand!</div>
+   <div class="i0">  Oh, mother of a matchless race!</div>
+   <div class="i1">    Hear our united cry!</div>
+   <div class="i0">’Tis noble in your cause to live,</div>
+   <div class="i1">    And nobler still to die!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--060.png--><a name="Page_58" id="Page_58"></a><span class="pagenum">[Pg 58]</span>
+The Stars and Stripes.</h3>
+
+<p class="center smaller">Copied by permission of <span class="smcap">Russell &amp; Patee</span>, Music Publishers,<br />
+61 Court street, Boston, owners of the copyright.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Rally round the flag, boys&emsp;</div>
+   <div class="i1">    Give it to the breeze!</div>
+   <div class="i0">  That’s the banner <em>we</em> love,</div>
+   <div class="i1">    On the land and seas.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Brave hearts are under it;</div>
+   <div class="i1">    Let the <em>Traitors</em> brag;</div>
+   <div class="i0">  Gallant lads, fire away!</div>
+   <div class="i1">    And fight for the flag.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">  <em>Their</em> flag is but a rag&mdash;</div>
+   <div class="i1">    Ours is the <em>true</em> one;</div>
+   <div class="i0">  Up with the Stars and Stripes!</div>
+   <div class="i1">    Down with the new one!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Let our colors fly, boys&mdash;</div>
+   <div class="i1">    Guard them day and night;</div>
+   <div class="i0">  For Victory is Liberty,</div>
+   <div class="i1">    And God will bless the Right.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--061.png--><a name="Page_59" id="Page_59"></a><span class="pagenum">[Pg 59]</span>
+The “Mud-Sills” Greeting.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Yankee Doodle.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Oh nigger-drivers, don’t you know</div>
+   <div class="i1">    You ought to have a thrashing,</div>
+   <div class="i0">  For kicking up this mighty row&mdash;</div>
+   <div class="i1">    This game of Union-smashing?</div>
+   <div class="i0">    Not satisfied with what you’ve got,</div>
+   <div class="i1">    You want to bag and steal, sirs,</div>
+   <div class="i0">  Our Capitol and capital&mdash;</div>
+   <div class="i1">    With Jonathan you’ve to deal, sirs!</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i0">So corn-cobs twist your hair,</div>
+   <div class="i1">    Gun-wheels run around you,</div>
+   <div class="i0">  Alligators drag you off,</div>
+   <div class="i1">    And empty kegs surround you!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">The “mud-sills” have at length got tired</div>
+   <div class="i1">    Of insolence and treason;</div>
+   <div class="i0">  They’ll teach the rebels an all-fired</div>
+   <div class="i1">    Lesson for the season.</div>
+   <div class="i0">  Then sneak behind masked batteries,</div>
+   <div class="i1">    Lay down in your trenches,</div>
+   <div class="i0">  Send the darkies out on guard,</div>
+   <div class="i1">    Make armorers of their wenches.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i0">Yankee boys will make you hear</div>
+   <div class="i1">    Constitution’s thunder!</div>
+   <div class="i0">  Yankee blades in Yankee hands</div>
+   <div class="i1">    Will fill your souls with wonder.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--062.png--><a name="Page_60" id="Page_60"></a><span class="pagenum">[Pg 60]</span>
+The Past and Present.</h3>
+
+<p class="center smaller">BY ROBERT M. HART.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Old Bob Ridley O.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Old Abram came across the mountains,</div>
+   <div class="i0">  By rural cots and gushing fountains,</div>
+   <div class="i0">  To rule a great and happy nation&mdash;</div>
+   <div class="i0">  And the brightest gem in all creation;</div>
+   <div class="i2">      Old Abe Lincoln O, old Abe Lincoln O,</div>
+   <div class="i2">      Our hearts are true to stand by you,</div>
+   <div class="i4">              Abram Lincoln O.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">When Abe took charge of our plantation,</div>
+   <div class="i0">  Secesh was making preparation</div>
+   <div class="i0">  To steal the half for raising cotton,</div>
+   <div class="i0">  But soon found out his scheme was rotten;</div>
+   <div class="i2">      Old Abe Lincoln O, Old Abe Lincoln O,</div>
+   <div class="i2">      No mercy show the thieving foe,</div>
+   <div class="i4">              Abram Lincoln O.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Old Abram is a man of knowledge,</div>
+   <div class="i0">  Although he never went to college,</div>
+   <div class="i0">  And his heart is right, and strong his nerve,</div>
+   <div class="i0">  And from his duty will not swerve;</div>
+   <div class="i2">      Old Abe Lincoln O, old Abe Lincoln O,</div>
+   <div class="i2">      Hold up the Flag and never lag,</div>
+   <div class="i4">              Abram Lincoln O.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Old Abe goes in for home protection,</div>
+   <div class="i0">  And keeps an army of inspection,</div>
+   <div class="i0">  Just to see that things are done up right,</div>
+   <div class="i0">  And the boys are spoiling for a fight;</div>
+   <div class="i2">      Old Abe Lincoln O, old Abe Lincoln O,</div>
+   <div class="i2">      When they begin, let them go in,</div>
+   <div class="i4">              Abram Lincoln O.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--063.png--><a name="Page_61" id="Page_61"></a><span class="pagenum">[Pg 61]</span>
+Song of Union.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Zuyder Zee.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Grand is the sight, when for national right,</div>
+   <div class="i1">    A People in arms are rising&mdash;</div>
+   <div class="i0">  Every bosom on fire with a freeman’s desire,</div>
+   <div class="i1">    Every spirit all treason despising.</div>
+   <div class="i0">  Crying&mdash;“Oh, let the Song of Union be</div>
+   <div class="i0">  Strong and deep as the rolling sea!</div>
+   <div class="i0">  Deep and strong as the rolling sea!”</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Grand is the cause of our Land and Laws,</div>
+   <div class="i1">    And the good old Constitution!</div>
+   <div class="i0">  For our lives and gold, and our honor, we hold</div>
+   <div class="i1">    Like the men of the Revolution!</div>
+   <div class="i0">  Crying&mdash;“Oh, let the Song of Union be</div>
+   <div class="i0">  Strong and deep as the rolling sea!</div>
+   <div class="i0">  Deep and strong as the rolling sea!”</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Rise, brothers, rise!&mdash;let your mingling cries,</div>
+   <div class="i1">    Roll out in a grand hosanna!</div>
+   <div class="i0">  March, brothers, march! while the stars o’erarch,</div>
+   <div class="i1">    We have always our country’s banner!</div>
+   <div class="i0">  Crying&mdash;“Oh, let the Song of Union be</div>
+   <div class="i0">  Strong and deep as the rolling sea!</div>
+   <div class="i0">  Deep and strong as the rolling sea!”</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--064.png--><a name="Page_62" id="Page_62"></a><span class="pagenum">[Pg 62]</span>
+Traitor, Spare that Flag.</h3>
+
+<p class="center smaller">BY THOMAS MACEVILY.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Woodman, Spare that Tree.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Traitors, spare that flag!</div>
+   <div class="i1">    Look up at its bright folds,</div>
+   <div class="i0">  And see within your hearts,</div>
+   <div class="i1">    The baseness of your souls;</div>
+   <div class="i0">  For that’s the proud old flag</div>
+   <div class="i1">    Your sires oft fought under&mdash;</div>
+   <div class="i0">  Are you, degenerate sons,</div>
+   <div class="i1">    To tear it now asunder?</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Traitors, spare that flag!</div>
+   <div class="i1">    Or vengeance loud and deep</div>
+   <div class="i0">  Will justly fall from Heaven,</div>
+   <div class="i1">    And make you one day weep;</div>
+   <div class="i0">  And the ashes of your fathers</div>
+   <div class="i1">    Will rise from out the tomb</div>
+   <div class="i0">  ’Gainst their ungrateful dastards,</div>
+   <div class="i1">    To curse the traitor’s doom.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Traitors, spare that flag!</div>
+   <div class="i1">    If you would yet be free&mdash;</div>
+   <div class="i0">  If you’ve the least regard</div>
+   <div class="i1">    For homes and liberty;</div>
+   <div class="i0">  If not, why, do your best;</div>
+   <div class="i1">    We’ve men and means at hand</div>
+   <div class="i0">  To spread it to the breeze</div>
+   <div class="i1">    O’er all Columbia’s land.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Traitors, spare that flag!</div>
+   <div class="i1">    You’ve done mischief enough:</div>
+   <div class="i0">  You’ve stolen our gold and guns,</div>
+   <div class="i1">    And talked vain boasting stuff;</div>
+   <div class="i0">  Then, touch not that proud flag,</div>
+   <div class="i1">    That banner of the free,</div>
+   <div class="i0">  Lest vengeance dire and deep</div>
+   <div class="i1">    May engulf you in misery.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--065.png--><a name="Page_63" id="Page_63"></a><span class="pagenum">[Pg 63]</span>
+A Life in the Soldier’s Camp.</h3>
+
+<p class="center smaller">BY JAS. O’C., COMPANY D, ANDERSON ZOUAVES.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Life on the Ocean Wave.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">A life in the soldier’s camp,</div>
+   <div class="i1">    A home in the snow-white tent,</div>
+   <div class="i0">  Where we hear the sentry tramp,</div>
+   <div class="i1">    And merry hours are spent;</div>
+   <div class="i0">  Where glory waits the brave,</div>
+   <div class="i1">    On the bloody battle-field,</div>
+   <div class="i0">  And the Stars and Stripes shall wave,</div>
+   <div class="i1">    O’er Zouaves that never yield.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Come, shoulder your musket, boys,</div>
+   <div class="i1">    And off to the field of strife;</div>
+   <div class="i0">  Leave home, and all its joys,</div>
+   <div class="i1">    And fly to a soldier’s life&mdash;</div>
+   <div class="i0">  With knapsack on your back,</div>
+   <div class="i1">    And canteen by your side&mdash;</div>
+   <div class="i0">  To follow the foeman’s track,</div>
+   <div class="i1">    Is the brave young Zouave’s pride.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">The camp is the place for me,</div>
+   <div class="i1">    When my country calls me there,</div>
+   <div class="i0">  To fight for the Flag of the Free,</div>
+   <div class="i1">    I’d live on homeliest fare;</div>
+   <div class="i0">  When the tattoo beats at night,</div>
+   <div class="i1">    And the reveille in the morn,</div>
+   <div class="i0">  And the Zouave’s heart is light</div>
+   <div class="i1">    As soon as the day is born.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Then farewell, home and friends,</div>
+   <div class="i1">    For I’ve joined the volunteers;</div>
+   <div class="i0">  I’ll be with him who defends</div>
+   <div class="i1">    Our Flag, and never fears.</div>
+   <div class="i0">  I’m off for the Zouaves’ camp,</div>
+   <div class="i1">    I’m bound for Freedom’s Wars;</div>
+   <div class="i0">  On the rebel flag I’ll tramp,</div>
+   <div class="i1">    And fight for the Stripes and Stars.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--066.png--><a name="Page_64" id="Page_64"></a><span class="pagenum">[Pg 64]</span>
+A Soldier’s Dream of Home.</h3>
+
+<p class="center smaller">BY WILLIAM ADAMS.</p>
+
+<p class="center smaller">Inscribed to Lieut. <span class="smcap">A. C. Calkins</span>, 21st (Buffalo) Reg’t, N. Y. S. V.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>America.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Still is the mighty host,</div>
+   <div class="i0">  Each sentry at his post,</div>
+   <div class="i1">    ’Tis midnight’s hour:</div>
+   <div class="i0">  There on my pallet low,</div>
+   <div class="i0">  My brain on fire&mdash;aglow</div>
+   <div class="i0">  With scenes of long-ago&mdash;</div>
+   <div class="i1">    Entrancing power!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Home of my boyhood’s hours,</div>
+   <div class="i0">  Nestled ’mid shady bowers,</div>
+   <div class="i1">    How dear thou art!</div>
+   <div class="i0">  I’m with you once again,</div>
+   <div class="i0">  Freed from the poignant pain</div>
+   <div class="i0">  Of seeing brothers slain&mdash;</div>
+   <div class="i1">    Never to part.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Kind friends and parents dear,</div>
+   <div class="i0">  Brushing the silent tear,</div>
+   <div class="i1">    Utter, “Welcome!</div>
+   <div class="i0">  Let glee and joy abound,</div>
+   <div class="i0">  Let songs and jokes go round,</div>
+   <div class="i0">  A warrior’s here&mdash;we’ve found</div>
+   <div class="i1">    Our only son!”</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">A ramble now I take</div>
+   <div class="i0">  O’er glen and silvery lake,</div>
+   <div class="i1">    Now doubly dear!</div>
+   <div class="i0">  Slowly I tread South Hill,</div>
+   <div class="i0">  Thro’ wood and over rill,</div>
+   <div class="i0">  The buzz of yon old mill</div>
+   <div class="i1">    Reaching my ear.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Alas! how brief the stay!</div>
+   <div class="i0">  A twinkling&mdash;then away</div>
+   <div class="i1">    From scenes I love!</div>
+   <div class="i0">  Back to the battle-field,</div>
+   <div class="i0">  Where wounded patriots bleed,</div>
+   <div class="i0">  From harm, be Thou my shield,</div>
+   <div class="i1">    Oh God! above.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--067.png--><a name="Page_65" id="Page_65"></a><span class="pagenum">[Pg 65]</span>
+A Yankee Volunteer.</h3>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">I thought I’d better come to town,</div>
+   <div class="i1">    I brought along my gun, sir;</div>
+   <div class="i0">  We guessed quite likely there’d be work,</div>
+   <div class="i1">    Or praps there might be fun, sir;</div>
+   <div class="i0">  I heerd wild geese was plenty, now,</div>
+   <div class="i1">    A comin’ from the south’ard,</div>
+   <div class="i0">  And thought I’d like a shot at some&mdash;</div>
+   <div class="i1">    If you ain’t too much bothered.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">My father sends his duty, sir;</div>
+   <div class="i1">    He says that things is growin’,</div>
+   <div class="i0">  And wants to know what he can do</div>
+   <div class="i1">    T’ help the men that’s goin’.</div>
+   <div class="i0">  Mother, she looks kind o’ scared,</div>
+   <div class="i1">    But fixed my things to come, sir;</div>
+   <div class="i0">  She didn’t want me, jest, to start,</div>
+   <div class="i1">    Nor jest to stay at home, sir.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">There’s brother Jim, he’s fierce to fight,</div>
+   <div class="i1a">    “Too young, boy,” says the jury;</div>
+   <div class="i0">  (Jim’s seventeen) so he gets mad</div>
+   <div class="i1">    And works away like fury.</div>
+   <div class="i0">  He’s nigh about as tall as I,</div>
+   <div class="i1">    That’s six foot and a quarter,</div>
+   <div class="i0">  (Han’t measured lately, but I guess</div>
+   <div class="i1">    I can’t ha’ grown much shorter.)</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Now, what d’ye spose Jerusha said,</div>
+   <div class="i1">    With her black eyes a snappin’?</div>
+   <div class="i0">    She’s jest my second cousin, sir,</div>
+   <div class="i1">    One seldom caught a nappin’.</div>
+   <div class="i0">  She said if she could see a man</div>
+   <div class="i1">    A fightin’ for the flag, sir,</div>
+   <div class="i0">  That she would give her new silk gown</div>
+   <div class="i1">    And call it but a rag, sir.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">I’d meant before to come, for sure,</div>
+   <div class="i1">    But that was jest a clincher;</div>
+   <div class="i0">  I never was a soldier, yit,</div>
+   <div class="i1">    But might be at a pinch, sir.</div>
+   <div class="i0">  I’ll try&mdash;and if my lamp goes out</div>
+   <div class="i1">    Afore their shot and brag, sir,</div>
+   <div class="i0">  Jest tell Jerusha how I died</div>
+   <div class="i1">    A fightin’ for the flag, sir.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--068.png--><a name="Page_66" id="Page_66"></a><span class="pagenum">[Pg 66]</span>
+Three Cheers for Our Banner.</h3>
+
+<p class="center smaller">Copied by permission of <span class="smcap">Horace Waters</span>, Music Publisher,<br />
+481 Broadway, N. Y., owner of the copyright.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Three cheers for our Banner, the Stripes and the Stars,</div>
+   <div class="i0">  The ensign of Liberty’s glorious wars!</div>
+   <div class="i0">  Fling it out to the breezes, its colors display,</div>
+   <div class="i0">  Let our Standard float boldly in face of the day.</div>
+   <div class="i0">  We will stand by this Banner, through fire and flood,</div>
+   <div class="i0">  We will guard and defend it, though crimson’d with blood.</div>
+ </div>
+ <p class="center smaller">CHORUS.</p>
+ <div class="stanza">
+   <div class="i0">Then three cheers for our Banner, in peace and in wars,</div>
+   <div class="i0">  We will ever be true to the Stripes and the Stars.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Three cheers for our Union, the land of our birth;</div>
+   <div class="i0">  ’Tis the fortress of freedom, the hope of the earth;</div>
+   <div class="i0">  Arouse you, ye sons of the East and the West,</div>
+   <div class="i0">  To defend it, though blood flow from each gallant breast;</div>
+   <div class="i0">  Remember, a noble old poet has said,</div>
+   <div class="i0">  ’Tis sweet, for our country, to sleep with the dead.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">The noble young heroes, who rescue her name,</div>
+   <div class="i0">  Columbia will crown, with the garland of fame;</div>
+   <div class="i0">  If they fall, she will weep o’er their glorious scars,</div>
+   <div class="i0">  And will lay them to rest ’neath her Banner of Stars;</div>
+   <div class="i0">  We know the Volunteers will always be found</div>
+   <div class="i0">  In the van of the host, on the blood-redden’d ground.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Three cheers for Columbia, the queen of the world,</div>
+   <div class="i0">  To the wind’s every quarter her flag be unfurled;</div>
+   <div class="i0">  We have bowed at her feet, in the day of her pride,</div>
+   <div class="i0">  Shall we basely desert her, now she is defied?</div>
+   <div class="i0">    No! millions of voices will instant reply,</div>
+   <div class="i0">  For freedom and country, we’ll dare and we’ll die.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--069.png--><a name="Page_67" id="Page_67"></a><span class="pagenum">[Pg 67]</span>
+The Flag of the Brave.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Red, White and Blue.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i0">Our tars are the lords of the ocean,</div>
+   <div class="i1">    Our champions on the blue brine,</div>
+   <div class="i0">  And ’mid the fierce battle’s commotion</div>
+   <div class="i1">    Our banner, triumphant, shall shine!</div>
+   <div class="i0">  They’ll win a proud mention in story</div>
+   <div class="i1">    When cannon loud boom o’er the wave;</div>
+   <div class="i0">  They’ll garland their banner with glory</div>
+   <div class="i1">    In fight, ’neath the Flag of the Brave!</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i2">        In fight ’neath the Flag of the Brave!</div>
+   <div class="i2">        In fight ’neath the Flag of the Brave!</div>
+   <div class="i3">          They’ll garland their banner with glory,</div>
+   <div class="i2">        In fight ’neath the Flag of the Brave!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">As long as a sail dots the ocean,</div>
+   <div class="i1">    Or sea-breezes blow o’er the deep,</div>
+   <div class="i0">  As long as the earth keeps in motion,</div>
+   <div class="i1">    Or stars their lone vigils shall keep&mdash;</div>
+   <div class="i0">  So long shall Columbia’s brave seamen</div>
+   <div class="i1">    Be monarchs upon the salt wave:</div>
+   <div class="i0">  Three cheers for the valor of Freemen!</div>
+   <div class="i1">    Three cheers for the Flag of the Brave!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Chorus&mdash;Three cheers for the Flag of the Brave!</div>
+   <div class="i4">          Three cheers for the Flag of the Brave!</div>
+   <div class="i4">           &emsp; Three cheers for the valor of freemen!</div>
+   <div class="i4">          Three cheers for the Flag of the Brave!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--070.png--><a name="Page_68" id="Page_68"></a><span class="pagenum">[Pg 68]</span>
+The Patriot Soldier.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>America, Commerce and Freedom.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+ <div class="stanza">
+   <div class="i2">How proud the steps a soldier treads,</div>
+   <div class="i3">    His country’s cause defending;</div>
+   <div class="i2">  And dear the blood a freeman sheds,</div>
+   <div class="i3">    With glory’s laurels blending;</div>
+   <div class="i2">  Though fiery tempest sweep his path,</div>
+   <div class="i3">    In battle’s line appearing,</div>
+   <div class="i2">  And death draw nigh, in lurid wrath,</div>
+   <div class="i3">    All horrid shapes uprearing,</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i0">Still, gallant and brave, he smiles at the grave,</div>
+   <div class="i1">    And hastes to his comrades, to lead them;</div>
+   <div class="i0">  In the field of red Mars, ’neath the Banner of Stars,</div>
+   <div class="i1">    His war-cry is “Union and Freedom!”</div>
+ </div>
+ <div class="stanza">
+   <div class="i2">        In all the land, from South to North,</div>
+   <div class="i3">          From East to West, he glories;</div>
+   <div class="i2">        But fights to drive the traitors forth,</div>
+   <div class="i3">          And rid its soil of tories!</div>
+   <div class="i2">        No crafty words his faith can shake&mdash;</div>
+   <div class="i3">          No force can make him falter;</div>
+   <div class="i2">        He draws his sword for Union’s sake,</div>
+   <div class="i3">          And strikes for Freedom’s altar!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">For, gallant and brave, he smiles at the grave,</div>
+   <div class="i1">    And flies to his comrades, to lead them;</div>
+   <div class="i0">  In the field of red Mars, ’neath the Banner of Stars,</div>
+   <div class="i1">    His war-cry is “Union and Freedom!”</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--071.png--><a name="Page_69" id="Page_69"></a><span class="pagenum">[Pg 69]</span>
+Give us Room.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Buy a Broom</i>.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">From Northland we come with our sharp-shooting rifles,</div>
+   <div class="i1">    To chase Southern traitors from Liberty’s soil;</div>
+   <div class="i0">  All heedless of Bull-Runs or such passing trifles,</div>
+   <div class="i1">    We’re bound to march onward, through danger or toil.</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i4">            Give us room! give us room!</div>
+   <div class="i4">            Give us room! give us room!</div>
+   <div class="i0">  Our sharp-shooting rifles shall make for us room.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">From Sumter we first heard the cannon’s loud booming&mdash;</div>
+   <div class="i1">    O’er crimson Potomac the sound rose again;</div>
+   <div class="i0">  And now from Missouri, where war-clouds are looming,</div>
+   <div class="i1">    We hear the loud summons of true-hearted men.</div>
+   <div class="i4">            Give us room! give us room!</div>
+   <div class="i4">            Give us room! give us room!</div>
+   <div class="i0">  Our sharp-shooting rifles will soon make us room.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Brave Cameron lies low with the sods of the valley,</div>
+   <div class="i1">    And Lyon’s bold bosom is cold in the grave;</div>
+   <div class="i0">  But again for the conflict their comrades still rally,</div>
+   <div class="i1">    And pour out for Union the blood of the brave.</div>
+   <div class="i4">            Give us room! give us room!</div>
+   <div class="i4">            Give us room! give us room!</div>
+   <div class="i0">  Our sharp-shooting rifles shall soon make us room.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--072.png--><a name="Page_70" id="Page_70"></a><span class="pagenum">[Pg 70]</span>
+The Union Marseillaise.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>The Marseilles Hymn</i>.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Arise! Arise! ye sons, of patriot sires!</div>
+   <div class="i1">    A Nation calls! and Heaven speed your way.</div>
+   <div class="i0">  Now Freedom lights anew her waning fires,</div>
+   <div class="i1">    And spreads her banner to the day,</div>
+   <div class="i1">    And spreads her banner to the day.</div>
+   <div class="i0">  While to His Throne our hearts are swelling,</div>
+   <div class="i1">    Freedom, and Law, and Truth, and Right,</div>
+   <div class="i1">    May God defend by his own might,</div>
+   <div class="i0">  By his right arm the treason quelling</div>
+   <div class="i2">          Ye loyal sons, and true,</div>
+   <div class="i3">            Sons of the brave and free,</div>
+   <div class="i2">          Join hearts, join hands, to strike anew</div>
+   <div class="i3">            For God and Liberty.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">With faith your all to Him confiding</div>
+   <div class="i1">    Who crowned with victory our fathers’ hand,</div>
+   <div class="i0">  With courage in his strength abiding,</div>
+   <div class="i1">    Go forth in Freedom’s sacred band,</div>
+   <div class="i1">    Go forth to save our native land.</div>
+   <div class="i0">  Defend from faction’s wild commotion,</div>
+   <div class="i1">    Our homes, our laws, our schools and spires,</div>
+   <div class="i1">    The names and graves of patriot sires,</div>
+   <div class="i0">  Till Freedom reigns to furthest ocean.</div>
+   <div class="i2">          Ye loyal sons and true,</div>
+   <div class="i3">            Sons of the brave and free,</div>
+   <div class="i2">          Join hearts, join hands, to strike anew</div>
+   <div class="i3">            For God and Liberty.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--073.png--><a name="Page_71" id="Page_71"></a><span class="pagenum">[Pg 71]</span>
+The Alarum.</h3>
+
+<p class="center smaller">BY R. H. STODDARD.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Men of the North and West,</div>
+   <div class="i2">      Wake in your might,</div>
+   <div class="i0">  Prepare, as the Rebels have done,</div>
+   <div class="i2">      For the fight;</div>
+   <div class="i0">  You cannot shrink from the test,</div>
+   <div class="i0">  Rise! Men of the North and West!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">They have torn down your banner of stars;</div>
+   <div class="i2">      They have trampled the laws;</div>
+   <div class="i0">  They have stifled the freedom they hate,</div>
+   <div class="i2">      For no cause!</div>
+   <div class="i0">  Do you love it, or slavery best?</div>
+   <div class="i0">    Speak! Men of the North and West.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">They strike at the life of the State&mdash;</div>
+   <div class="i2">      Shall the murder be done?</div>
+   <div class="i0">    They cry, “We are two!” And you?</div>
+   <div class="i2a">        “<em>We are one!</em>”</div>
+   <div class="i0">  You must meet them, then, breast to breast,</div>
+   <div class="i0">  On! men of the North and West!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Not with words&mdash;they laugh them to scorn,</div>
+   <div class="i2">      And tears they despise;</div>
+   <div class="i0">  But with swords in your hands, and death</div>
+   <div class="i2">      In your eyes!</div>
+   <div class="i0">  Strike home! leave to God all the rest,</div>
+   <div class="i0">  Strike! Men of the North and West!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--074.png--><a name="Page_72" id="Page_72"></a><span class="pagenum">[Pg 72]</span>
+Battle Invocation.</h3>
+
+<p class="center smaller">BY JAMES G. CLARK.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>The Assyrian came down, etc.</i></p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Oh! spirits of Washington, Warren and Wayne!</div>
+   <div class="i0">  Oh! shades of the Heroes and Patriots slain!</div>
+   <div class="i0">  Come down from your mountains of emerald and gold,</div>
+   <div class="i0">  And smile on the Banner ye cherished of old.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Descend in your glorified ranks to the strife,</div>
+   <div class="i0">  Like legions sent forth from the armies of life;</div>
+   <div class="i0">  Let us feel your deep presence, as waves feel the breeze</div>
+   <div class="i0">  When the white fleets, like snow-flakes, are drank by the seas.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Proud sons of the soil where the Palmetto grows,</div>
+   <div class="i0">  Once patriots and brothers, now traitors and foes,</div>
+   <div class="i0">  Ye have turned from the path which our forefathers’ trod,</div>
+   <div class="i0">  And stolen from man the best gift of his God.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Ye have trampled the tendrils of love in the ground,</div>
+   <div class="i0">  Ye have scoffed at the law which the Nazarene found,</div>
+   <div class="i0">  Till the great wheel of Justice seemed blocked for a time,</div>
+   <div class="i0">  And the eyes of humanity blinded with crime.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">As the vail which conceals the clear starlight is riven</div>
+   <div class="i0">  When clouds strike together, by warring winds driven,</div>
+   <div class="i0">  So the blood of the race must be offered like rain,</div>
+   <div class="i0">  Ere the stars of our country are ransomed again.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--075.png--><a name="Page_73" id="Page_73"></a><span class="pagenum">[Pg 73]</span>
+The Patriot’s Address.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Scots Wha Hae</i>.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Patriot hearts and loyal souls!</div>
+   <div class="i0">  Ye whose faith no fear controls&mdash;</div>
+   <div class="i0">  Lo! the storm of treason rolls</div>
+   <div class="i2">      Round your glorious liberty!</div>
+   <div class="i0">  Rebel swords have struck your shield&mdash;</div>
+   <div class="i0">  Traitor hands their poniards wield&mdash;</div>
+   <div class="i0">  Miscreant tyrants bid ye yield</div>
+   <div class="i2">      Power and place to slavery!</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">By your ancient heroes’ blood,</div>
+   <div class="i0">  By their deeds on field and flood;</div>
+   <div class="i0">  By the fruits of Freedom’s bud,</div>
+   <div class="i2">      Sprung from northern loyalty&mdash;</div>
+   <div class="i0">  Strike at once these daring foes&mdash;</div>
+   <div class="i0">  Round their soil your legions close&mdash;</div>
+   <div class="i0">  Bid them drain the cup of woes</div>
+   <div class="i2">      They would fill for you and me.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Heaven is on the Freeman’s side&mdash;</div>
+   <div class="i0">  God still rules the battle’s tide&mdash;</div>
+   <div class="i0">  Heaven and God <i>they</i> have defied,</div>
+   <div class="i2">      Who make war for slavery!</div>
+   <div class="i0">  Let them feel a patriot’s ire,</div>
+   <div class="i0">  Withering all their base desire&mdash;</div>
+   <div class="i0">  Let our anger be as fire,</div>
+   <div class="i2">      Blasting chains and tyranny!</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--076.png--><a name="Page_74" id="Page_74"></a><span class="pagenum">[Pg 74]</span>
+The Patriot’s Wish.</h3>
+
+<p class="center smaller">BY ROBERT M. HART.</p>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>The Star-Spangled Banner</i>.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Oh God bless our land, and united once more,</div>
+   <div class="i1">    May we gather true wisdom from war’s desolation;</div>
+   <div class="i0">  From the thick curling smoke, and the fierce cannon’s roar,</div>
+   <div class="i1">    Let peace in her beauty rise and smile on our nation;</div>
+   <div class="i0">  To show to the world that peace is unfurled,</div>
+   <div class="i0">  And war from Columbia forever is hurled,</div>
+ </div>
+
+<p class="center smaller">CHORUS.</p>
+
+ <div class="stanza">
+   <div class="i1">    That the proud Ark of Freedom, with bold, trusty crew,</div>
+   <div class="i1">    Still sails ’neath the banner of the Red, White and Blue.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Great God bless our land, for ’tis dyed in the gore</div>
+   <div class="i1">    Of the good and the brave of a nation’s defenders;</div>
+   <div class="i0">  Oh! may death’s fearful havoc molest us no more,</div>
+   <div class="i1">    And Thy love fill the bosom as passion surrenders;</div>
+   <div class="i0">  To show to the world that love is unfurled,</div>
+   <div class="i0">  And hate from Columbia forever is hurled.</div>
+   <div class="i4">                That the proud Ark, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Oh God bless our land&mdash;may our eagle still fly,</div>
+   <div class="i1">    And gaze on Columbia in proud adoration;</div>
+   <div class="i0">  Let the sunlight of truth ever flash from his eye,</div>
+   <div class="i1">    Urging freemen to duty in dark tribulation;</div>
+   <div class="i0">  To show to the world that truth is unfurled,</div>
+   <div class="i0">  Aught else from Columbia forever is hurled.</div>
+   <div class="i4">                That the proud Ark, etc.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">May the emblem we love, the Flag of the Free,</div>
+   <div class="i1">    For all time to come be our shield and our protection,</div>
+   <div class="i0">  Ever waving in glory on land and on sea,</div>
+   <div class="i1">    Our shrine of devotion and fond recollection;</div>
+   <div class="i0">  To show to the world our flag is unfurled,</div>
+   <div class="i0">  And strife from Columbia forever is hurled.</div>
+   <div class="i4">                That the proud Ark, etc.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<h3 class="p2"><!--077.png--><a name="Page_75" id="Page_75"></a><span class="pagenum">[Pg 75]</span>
+The Union Harvesting.</h3>
+
+<p class="center"><span class="smcap">Air</span>&mdash;<i>Old Oaken Bucket</i>.</p>
+<div class="poem-container no-break">
+ <div class="poem">
+  <div class="stanza">
+   <div class="i0">Oh, fair is the orchard, with russet fruit laden,</div>
+   <div class="i1">    And bright is the cornfield, all golden with grain,</div>
+   <div class="i0">  And sweet is the garden, where matron and maiden,</div>
+   <div class="i1">    Sit listening at eve to the whippowil’s strain;</div>
+   <div class="i0">  But fairer, and brighter, and sweeter, and dearer,</div>
+   <div class="i1">    Are the orchards of crimson, the fields of bright red,</div>
+   <div class="i0">  And the flow’rets immortal that hallow the wearer,</div>
+   <div class="i1">    Whose blood for his country is loyally shed,</div>
+   <div class="i0">  In the orchards of Union, the cornfields of Union,</div>
+   <div class="i1">    The gardens of Union, for Liberty shed.</div>
+ </div>
+ <div class="stanza">
+   <div class="i0">Though the reaper be Death, and his garner the charnel,</div>
+   <div class="i1">    And the wine-press o’erflow with our patriot blood&mdash;</div>
+   <div class="i0">  Though the furrows run red with a vintage incarnal,</div>
+   <div class="i1">    Who will shrink from the field? who will pause at the flood?</div>
+   <div class="i0">    Who will measure the grain while ’tis standing or falling?</div>
+   <div class="i1">      Who will count what is lost, till the day shall be won?</div>
+   <div class="i0">    While the sun shines aloft, while the Master is calling,</div>
+   <div class="i1">    In the field be our place, till the field-work is done!</div>
+   <div class="i0">  In the orchards of Union, the cornfields of Union,</div>
+   <div class="i1">    The gardens of Union, till victory is won.</div>
+  </div>
+ </div></div><!--end poem and container-->
+</div><!--end chapter-->
+
+<div class="chapter">
+<!--078.png-->
+
+<h3 class="p4">Beadle’s Dime Song Books.</h3>
+
+<p class="p2 indent larger"><strong><abbr title="Number">No.</abbr> 1.</strong></p>
+
+<ul class="IX none">
+<li>All’s for the best,</li>
+<li>A good time coming,</li>
+<li>A national song,</li>
+<li>A thousand a year,</li>
+<li>Annie Laurie,</li>
+<li>Ans’er to thousand a year,</li>
+<li>Ans’er to K. Kearney,</li>
+<li>Belle Brandon,</li>
+<li>Ben Bolt,</li>
+<li>Blind boy’s lament,</li>
+<li>Bob Ridley,</li>
+<li>Bold private’r,</li>
+<li>Do they miss me at home,</li>
+<li>Don’t be angry,</li>
+<li>Down the river,</li>
+<li>Dying Californian,</li>
+<li><span lang="la">E Pluribus Unum</span>,</li>
+<li>Evening star,</li>
+<li>Faded flowers,</li>
+<li>Gentle Annie,</li>
+<li>Gentle Jennie Gray,</li>
+<li>Glad to get home,</li>
+<li>Hard times,</li>
+<li>Have you seen my sister,</li>
+<li>Heather dale,</li>
+<li>Hills of New England,</li>
+<li>Home again,</li>
+<li>I am not angry,</li>
+<li>I want to go home,</li>
+<li>Juney at the gate,</li>
+<li>Kate Kearney,</li>
+<li>Kiss me quick and go,</li>
+<li>Kitty Clyde,</li>
+<li>Little Blacksmith,</li>
+<li>Marseilles hymn,</li>
+<li>Miller of the Dee,</li>
+<li>My home in Kentu’k,</li>
+<li>My own native land,</li>
+<li>Nelly Gray,</li>
+<li>Nelly was a lady,</li>
+<li>Old dog Tray,</li>
+<li>Old folks we loved.,</li>
+<li>Our Mary Ann,</li>
+<li>Over the mountain,</li>
+<li>Poor old slave,</li>
+<li>Red, white and blue,</li>
+<li>Root, hog, or die&mdash;1, 2, 3 &amp; 4.,</li>
+<li>Row, row,</li>
+<li>Shells of the ocean,</li>
+<li>Song of the sexton,</li>
+<li>Sword of Bunk’r hill,</li>
+<li>Star spangled ban’er,</li>
+<li>The age of progress,</li>
+<li>The lake-side shore,</li>
+<li>The old farm-house,</li>
+<li>The old play-ground,</li>
+<li>The rock of liberty,</li>
+<li>The tempest,</li>
+<li>Twenty years ago,</li>
+<li>Twinkling stars,</li>
+<li>Uncle Sam’s farm,</li>
+<li>Unfurl the banner,</li>
+<li>Wait for the wagon,</li>
+<li>Willie, we’ve missed,</li>
+<li>Willie, roam no more.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<p class="p2 indent larger"><strong><abbr title="Number">No.</abbr> 2.</strong></p>
+
+<ul class="IX none">
+<li>Alice Gray,</li>
+<li>America,</li>
+<li>Banks of Mohawk,</li>
+<li>Be kind to each oth’r,</li>
+<li>Billy Grimes, rover,</li>
+<li>Bryan O’Lynn,</li>
+<li>Come, sit thee down,</li>
+<li>Cora Lee,</li>
+<li>Crazy Jane,</li>
+<li>Darling Nelly Moore,</li>
+<li>Darling old stick,</li>
+<li>Fireman’s victory,</li>
+<li>Good news from home,</li>
+<li>Good-night,</li>
+<li>Grave of Lilly Dale,</li>
+<li>Graves of household,</li>
+<li>Home, sweet home,</li>
+<li>I’ve no mother now,</li>
+<li>I’m going home,</li>
+<li>I’m leaving thee in sorrow,</li>
+<li>I miss thee,</li>
+<li>Irishman’s shanty,</li>
+<li>I wandered by the brook,</li>
+<li>Katy Darling,</li>
+<li>Kathl’n Movourneen,</li>
+<li>Little Katy,</li>
+<li>Mary of wild moor,</li>
+<li>Mabel Clare,</li>
+<li>Mary Aileen,</li>
+<li>Mill May,</li>
+<li>Minnie Moore,</li>
+<li>Minnie dear,</li>
+<li>Mrs. Lofty and I,</li>
+<li>Mr. Finagan,</li>
+<li>My eye and B. Martin,</li>
+<li>My love is a saileur,</li>
+<li>My mother dear,</li>
+<li>My grandma’s advice,</li>
+<li>My mother’s bible,</li>
+<li>Nancy Bell,</li>
+<li>New England,</li>
+<li>Oh! the sea, the sea,</li>
+<li>Old folks are gone,</li>
+<li>Old sideling hill,</li>
+<li>Our boyhood days,</li>
+<li>Our fatherland,</li>
+<li>Peter Gray,</li>
+<li>Rory O’Moore,</li>
+<li>Scorn not thy broth’r,</li>
+<li>Shouldn’t like to tell,</li>
+<li>Somebody’s waiting,</li>
+<li>The farmer sat,</li>
+<li>The farmer’s boy,</li>
+<li>The postboy’s song,</li>
+<li>The quilting party,</li>
+<li>Three bells,</li>
+<li>’Tis home where the heart is,</li>
+<li>Waiting for the May,</li>
+<li>We stand united,</li>
+<li>Where bright waves,</li>
+<li>What other name,</li>
+<li>What’s home without mother,</li>
+<li>Winter,</li>
+<li>Widow Machree,</li>
+<li>Willie’s on the sea.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<p class="p2 indent larger"><strong><abbr title="Number">No.</abbr> 3.</strong></p>
+
+<ul class="IX none">
+<li>Annie, dear, good-by,</li>
+<li>A sailor’s life for me,</li>
+<li>Answer to Jeannette,</li>
+<li>Bessie was a bride,</li>
+<li>Bonnie Jean,</li>
+<li>Boys of Kilkenny,</li>
+<li>Comic Katy Darling,</li>
+<li>Comic parody,</li>
+<li>Darling Jennie Bell,</li>
+<li>Darling Rosabel,</li>
+<li>Death of An’e Laurie,</li>
+<li>Emigrant’s farewell,</li>
+<li>Ettie May,</li>
+<li>Few days,</li>
+<li>Fine old Eng. Gent.,</li>
+<li>Fine old Irish Gent.,</li>
+<li>Fine old Dutchman,</li>
+<li>Fireman’s death,</li>
+<li>Girl in a calico dress,</li>
+<li>Give ’em string,</li>
+<li>Girl I left behind me,</li>
+<li>Golddigger’s lament,</li>
+<li>Go it while young,</li>
+<li>Hail Columbia,</li>
+<!--079.png-->
+<li>Happy Hezekiah,</li>
+<li>I choose to be a daisy,</li>
+<li>Isle of beauty,</li>
+<li>I’ve som’thing sweet,</li>
+<li>I think of old Ireland,</li>
+<li>Jeannette and Jeannot,</li>
+<li>John Jones,</li>
+<li>Jordan is a hard road,</li>
+<li>Kitty Kimo,</li>
+<li>Lather and shave,</li>
+<li>Lager bier song,</li>
+<li>Linda has departed,</li>
+<li>Lilly Bell,</li>
+<li>Love not,</li>
+<li>Man the life-boat,</li>
+<li>My dear old mother,</li>
+<li>My heart’s in Ireland,</li>
+<li>My poor dog Tray,</li>
+<li>Old dog Tray, <abbr title="Number">No.</abbr> 2,</li>
+<li>Old oaken bucket,</li>
+<li>Old Rosin the beau,</li>
+<li>Old whisky jug,</li>
+<li>Other side of Jordan,</li>
+<li>Over the left,</li>
+<li>Parody&mdash;To the west,</li>
+<li>Pirate’s serenade,</li>
+<li>Pop goes the weasel,</li>
+<li>Pretty Jane,</li>
+<li>Rosa Lee,</li>
+<li>Song of locomotive,</li>
+<li>Sparking Sarah Ann,</li>
+<li>The American boy,</li>
+<li>The American girl,</li>
+<li>The Fireman’s boy,</li>
+<li>The Indian hunter,</li>
+<li>Ten o’clock,</li>
+<li>Tilda Horn,</li>
+<li>To the west,</li>
+<li>True blue,</li>
+<li>Uncle Ned,</li>
+<li>Unhappy Jeremiah,</li>
+<li>Villikens and Dinah,</li>
+<li>We miss thee home,</li>
+<li>What’ll Grundy say,</li>
+<li>Woodm’n, spare tree,</li>
+<li>Yellow Texas rose.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<p class="p2 indent larger"><strong><abbr title="Number">No.</abbr> 4.</strong></p>
+
+<ul class="IX none">
+<li>A merry Gipsey girl,</li>
+<li>A national song,</li>
+<li>Ans’er to K. Darling,</li>
+<li>Ben Fisher and wife,</li>
+<li>Bonnie Jamie,</li>
+<li>Broken-hearted Tom,</li>
+<li>By the sad sea-waves,</li>
+<li>Columbia rules sea,</li>
+<li>Come, gang wi’ me,</li>
+<li>Commence, darkies,</li>
+<li>Cottage by the sea,</li>
+<li>Daylight on the sea,</li>
+<li>Don’t cry so, Norah,</li>
+<li>Erin is my home,</li>
+<li>Gal from the south,</li>
+<li>Get out wilderness,</li>
+<li>Harp of Tara’s hall,</li>
+<li>He led her to altar,</li>
+<li>Home, sweet home,</li>
+<li>I am a freeman,</li>
+<li>I’ll hang my harp,</li>
+<li>I’m not myself at all,</li>
+<li>Indian Hunter,</li>
+<li>Indian warr.’s grave,</li>
+<li>I’ve been roaming,</li>
+<li>I wish he’d decide,</li>
+<li>Jane Monroe,</li>
+<li>Jolly Jack, rover,</li>
+<li>Johnny’s for soldier,</li>
+<li>Kate was a little girl,</li>
+<li>Kitty Tyrel,</li>
+<li>Let me kiss for his mother,</li>
+<li>Linda’s gone to Balt.,</li>
+<li>Maud Adair and I,</li>
+<li>Molly Bawn,</li>
+<li>My ain fireside,</li>
+<li>My boyhood’s home,</li>
+<li>Nora, of Kidare,</li>
+<li>Kiss, but never tell,</li>
+<li>Old uncle Edward,</li>
+<li>Paddy on the canal,</li>
+<li>Parody on Unc. Sam,</li>
+<li>Poor old maids,</li>
+<li>Preserve the mariner,</li>
+<li>Ship ahoy,</li>
+<li>Somebody’s courting,</li>
+<li>Song of the farmer,</li>
+<li>Song, Blanche Alpen,</li>
+<li>Sparking Sunday n’t,</li>
+<li>Sprig of shillelah,</li>
+<li>Stand by the flag,</li>
+<li>The engineer’s song,</li>
+<li>The farmer’s boy,</li>
+<li>The hazel dell,</li>
+<li>The little low room,</li>
+<li>The low-backed car,</li>
+<li>The old brown cot,</li>
+<li>The old kirk-yard,</li>
+<li>Terry O’Reilly,</li>
+<li>They don’t wish me home,</li>
+<li>Tom Brown,</li>
+<li>Uncle Gabriel,</li>
+<li>Uncle Tim, the toper,</li>
+<li>We were boys tog’er,</li>
+<li>We’re growing old,</li>
+<li>We’re fond of kissi’g,</li>
+<li>Where are the hopes,</li>
+<li>Wit’n mile of Edin’o,</li>
+<li>Would I were a boy,</li>
+<li>Would I were a girl,</li>
+<li>Would I’re with thee.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<p class="p2 indent larger"><strong><abbr title="Number">No.</abbr> 5.</strong></p>
+
+<ul class="IX none">
+<li>A dollar or two,</li>
+<li>A man’s a man,</li>
+<li>A Yan. ship and crew,</li>
+<li>Angels whisper,</li>
+<li>Auld lang syne,</li>
+<li>Bashful young man,</li>
+<li>Call me pet names,</li>
+<li>Camptown racers,</li>
+<li>Charity,</li>
+<li>Cheer, boys, cheer,</li>
+<li>Comin’ thro’ the rye,</li>
+<li>Days I was hard-up,</li>
+<li>Dermot Astore,</li>
+<li>Dilla Burn,</li>
+<li>Down the burn, Davy,</li>
+<li>Dumbarton’s dell,</li>
+<li>Ever of thee,</li>
+<li>Gently o’er me steals,</li>
+<li>Gum-tree canoe,</li>
+<li>Grave of uncle True,</li>
+<li>Grave of Bonaparte,</li>
+<li>Hark, I hear an angel,</li>
+<li>I offer thee this hand,</li>
+<li>Irish Emig. lament,</li>
+<li>John Anderson,</li>
+<li>Johnny a shoemaker,</li>
+<li>Kind Relations,</li>
+<li>Last w’k I took wife,</li>
+<li>Lass’t loves a sailor,</li>
+<li>Last rose of summer,</li>
+<li>Lily of the west,</li>
+<li>Mary of Argyle,</li>
+<li>Meet me by moonli’t,</li>
+<li>Minute gun at sea,</li>
+<li>Napolitaine,</li>
+<li>Norah McShane,</li>
+<li>Nothing else to do,</li>
+<li>Och, Paddy, is it ye,</li>
+<li>Oft in the stilly n’ht,</li>
+<li>Poor fishermans girl,</li>
+<li>Rat-catcher’s daug’r,</li>
+<li>Rose of Allandale,</li>
+<!--080.png-->
+<li>Roll on, silver moon,</li>
+<li>Sambo, I’ve missed,</li>
+<li>Sammy Slap,</li>
+<li>Simon, the cellarer,</li>
+<li>Someth’g to love me,</li>
+<li>Some love to drink,</li>
+<li>Sourkrout and sau’s,</li>
+<li>The gay cavalier,</li>
+<li>The gambler’s wife,</li>
+<li>The ingle side,</li>
+<li>The ivy green,</li>
+<li>The monks of old,</li>
+<li>The musical wife,</li>
+<li>The ocean burial,</li>
+<li>The old arm-chair,</li>
+<li>The watcher,</li>
+<li>Tail iv me coat,</li>
+<li>Thou art gone,</li>
+<li>Thou hast wounded,</li>
+<li>’Tis midnight hour,</li>
+<li>Twilight dews,</li>
+<li>Umbrella courtship,</li>
+<li>Wake, Dinah, wake,</li>
+<li>Washington,</li>
+<li>We’ll have a dance,</li>
+<li>We met by chance,</li>
+<li>When I saw Nelly,</li>
+<li>When the swallows,</li>
+<li>Whoop de doodle do,</li>
+<li>William of the ferry,</li>
+<li>Will you love me.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<p class="p2 indent larger"><strong><abbr title="Number">No.</abbr> 6.</strong></p>
+
+<ul class="IX none">
+<li>Annie Lisle,</li>
+<li>Beautiful world,</li>
+<li>Be kind to the loved,</li>
+<li>Bloom is on the rye,</li>
+<li>Bobbin’ around,</li>
+<li>Bonnie Dundee,</li>
+<li>Cottage of mother,</li>
+<li>Courting in Conn’t,</li>
+<li>Dearest Mae,</li>
+<li>Dear mother, I come,</li>
+<li>Ella Ree,</li>
+<li>Fairy Dell,</li>
+<li>Far, far upon the sea,</li>
+<li>Female auctioneer,</li>
+<li>Gentle Hallie,</li>
+<li>Gentle Nettie Moore,</li>
+<li>Happy we to-night,</li>
+<li>Hattie Lee,</li>
+<li>He doeth all things,</li>
+<li>Home without sister,</li>
+<li>I can’t call her mot’r,</li>
+<li>I’ll paddle my canoe,</li>
+<li>I’m stand’g by grave,</li>
+<li>Irish jaunting car,</li>
+<li>Is it anybody’s bus’s,</li>
+<li>Jane O’Mally,</li>
+<li>Jenny Lane,</li>
+<li>Joanna Snow,</li>
+<li>Johnny Sands,</li>
+<li>Lilly Dale,</li>
+<li>Little more cider,</li>
+<li>Lords of creation,</li>
+<li>Lulu is our pride,</li>
+<li>Marion Lee,</li>
+<li>Meet me by the br’k,</li>
+<li>Merry sleighride,</li>
+<li>Minnie Clyde,</li>
+<li>Mountaineer’s fare’l,</li>
+<li>Not for gold,</li>
+<li>Not married yet,</li>
+<li>Oh, carry me home,</li>
+<li>Old homestead,</li>
+<li>Old mountain tree,</li>
+<li>Ossian’s serenade,</li>
+<li>Over the river,</li>
+<li>Riding on a rail,</li>
+<li>Sailor boy’s dream,</li>
+<li>Say yes, pussy,</li>
+<li>Silber shining moon,</li>
+<li>Song my mot’r sang,</li>
+<li>Spare the homestead,</li>
+<li>Spirit-voice of Belle,</li>
+<li>Squire Jone’s dau’r,</li>
+<li>The blue Junietta,</li>
+<li>The carrier-dove,</li>
+<li>The child’s wish,</li>
+<li>The maniac,</li>
+<li>The May-queen,</li>
+<li>The miller’s maid,</li>
+<li>The modern belle,</li>
+<li>The strawberry girl,</li>
+<li>The snow-storm,</li>
+<li>Three grains of corn,</li>
+<li>Washington’s grave,</li>
+<li>Where are friends,</li>
+<li>Why chime the bells,</li>
+<li>Why don’t the men,</li>
+<li>Will nobody marry,</li>
+<li>Young recruit.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<p class="p2 indent larger"><strong><abbr title="Number">No.</abbr> 7.</strong></p>
+
+<ul class="IX none">
+<li>A ride I was taking,</li>
+<li>Anchor’s weighed,</li>
+<li>Beautiful Venice,</li>
+<li>Billy Patterson,</li>
+<li>Breeze of the night,</li>
+<li>Bright-eyed Nell,</li>
+<li>Come, Willie dear,</li>
+<li>Deal with me kindly,</li>
+<li>Dixie’s Land, 1 &amp; 2,</li>
+<li>Dolcy Jones,</li>
+<li>Don’t you remember,</li>
+<li>Down in cane-brakes,</li>
+<li>Fairy Belle,</li>
+<li>Farewell, cottage,</li>
+<li>Glendy burk,</li>
+<li>Ho, Gondolier, wake,</li>
+<li>How shall I watch,</li>
+<li>Hush-a-by, baby,</li>
+<li>I love my nat. land,</li>
+<li>I’m a jolly bachelor,</li>
+<li>It is recorded,</li>
+<li>Julianna Johnson,</li>
+<li>Lilly Ray,</li>
+<li>Little Daisy,</li>
+<li>Little Ella,</li>
+<li>Maggie by my side,</li>
+<li>Maggie, pride of vale,</li>
+<li>Mary May,</li>
+<li>Mary’s welcome,</li>
+<li>Massa in cold gro’nd,</li>
+<li>Massa sound sleep’g,</li>
+<li>My brodder Gum,</li>
+<li>My canoe’s on Ohio,</li>
+<li>My old house,</li>
+<li>My mountain home,</li>
+<li>Nelly Bly,</li>
+<li>Newfoundland dog,</li>
+<li>No, thank you, sir,</li>
+<li>Old ironsides,</li>
+<li>Old K. Y. Ky,</li>
+<li>Our Union, r’t or w’g,</li>
+<li>Over the summer sea,</li>
+<li>Paddy Boghree,</li>
+<li>Queen Mary’s escape,</li>
+<li>Revolutionary times,</li>
+<li>Ring de banjo,</li>
+<li>Roy Neill,</li>
+<li>She’s black,</li>
+<li>Some folks,</li>
+<li>Star of my home,</li>
+<li>Take me home to die,</li>
+<li>The evening gun,</li>
+<li>The happy Switzer,</li>
+<li>The home I leave,</li>
+<li>The messenger bird,</li>
+<li>The old stage-coach,</li>
+<li>The pilot,</li>
+<li>The reefer’s song,</li>
+<li>The ship on fire,</li>
+<!--081.png-->
+<li>The sleighing glee,</li>
+<li>Under the willow,</li>
+<li>Virginia Belle,</li>
+<li>Way down in Cairo,</li>
+<li>We’re coming, sister,</li>
+<li>Who’ll have me,</li>
+<li>Willie, my brave.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<p class="p2 indent larger"><strong><abbr title="Number">No.</abbr> 8.</strong></p>
+
+<ul class="IX none">
+<li>A life on the ocean,</li>
+<li>Annie of the vale,</li>
+<li>A wet sheet,</li>
+<li>Bonnie Eloise,</li>
+<li>Brightly o’er lake,</li>
+<li>By the lone riverside,</li>
+<li>Campbells are com’g,</li>
+<li>Come by sil’ry brook,</li>
+<li>Come, maiden,</li>
+<li>Down by the river,</li>
+<li>Ella Leene,</li>
+<li>Ellen Bayne,</li>
+<li>Farewell, Lilly dear,</li>
+<li>Farewell, mother,</li>
+<li>Girls aren’t so green,</li>
+<li>Going home to Dixie,</li>
+<li>Good-by, Linda love,</li>
+<li>Happy be thy dreams,</li>
+<li>Hard times,</li>
+<li>Home and friends,</li>
+<li>Home I leave behind,</li>
+<li>I’d be a Gipsey,</li>
+<li>I’d rather be a violet,</li>
+<li>If I had one to love,</li>
+<li>I had a dream,</li>
+<li>I’m o’er young,</li>
+<li>I’m queen of village,</li>
+<li>I’m thinking of thee,</li>
+<li>I see her in dreams,</li>
+<li>Jeanie with the,</li>
+<li>Jennie’s coming o’er,</li>
+<li>Katie’s secret,</li>
+<li>Kinlock of Kinlock,</li>
+<li>Kitty dear,</li>
+<li>Kitty Wells,</li>
+<li>Light of other days,</li>
+<li>List to the mocking,</li>
+<li>Little Jennie Dow,</li>
+<li>Lizzie dies to-night,</li>
+<li>Lone starry hours,</li>
+<li>Long weary day,</li>
+<li>Lost Rosabel,</li>
+<li>Mary Avourneen,</li>
+<li>Meeting of waters,</li>
+<li>Near the banks of,</li>
+<li>Old black Joe,</li>
+<li>Old folks at home,</li>
+<li>Riding in a ra’d keer,</li>
+<li>Rock me to sleep,</li>
+<li>Row, row, brothers,</li>
+<li>Row your boat,</li>
+<li>Scenes brightest,</li>
+<li>She wept her life,</li>
+<li>Sighing for thee,</li>
+<li>Silvery midn’t moon,</li>
+<li>Some one to love,</li>
+<li>Take me to Tennes’e,</li>
+<li>Tapping at window,</li>
+<li>The brave old oak,</li>
+<li>The dream is past,</li>
+<li>The sea, the sea,</li>
+<li>The wild rose,</li>
+<li>The Zingarina,</li>
+<li>’Tis but a faded flo’er,</li>
+<li>Vive L’America,</li>
+<li>We’ll meet in heaven,</li>
+<li>Western trap’rs song,</li>
+<li>What are wild waves,</li>
+<li>What fair’like music,</li>
+<li>Why have my loved,</li>
+<li>Whistle and I come.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<p class="p2 indent larger"><strong><abbr title="Number">No.</abbr> 9.</strong></p>
+
+<ul class="IX none">
+<li>A maiden’s prayer,</li>
+<li>Basketmaker’s child,</li>
+<li>Banks and braes,</li>
+<li>Be quiet, do,</li>
+<li>Bowld sojer boy,</li>
+<li>Boys, carry me ’long,</li>
+<li>Bonnie new moon,</li>
+<li>Bright moonlit sea,</li>
+<li>Call me not unkind,</li>
+<li>Canadian boat-song,</li>
+<li>Castles in the air,</li>
+<li>Come wh’re moonb’s,</li>
+<li>Come to de gum-tree,</li>
+<li>Come where my love,</li>
+<li>Cruiskeen Lawn,</li>
+<li>Do they think of me,</li>
+<li>Do you remember,</li>
+<li>Down at de barbecue,</li>
+<li>Eulalie,</li>
+<li>Ever be happy,</li>
+<li>Flow gently, Afton,</li>
+<li>Female smuggler,</li>
+<li>Gentle Bessie Gray,</li>
+<li>Grave of Kitty Clyde,</li>
+<li>Hannah at the win’w,</li>
+<li>Harp of wild wind,</li>
+<li>Hark, the vesper-h’n,</li>
+<li>Household clock,</li>
+<li>I breathe my nat. air,</li>
+<li>I dream of mother,</li>
+<li>I’ll be no submissive,</li>
+<li>I’m not so ugly man,</li>
+<li>Jamie’s on the sea,</li>
+<li>Jockey hat,</li>
+<li>Joys we’ve tasted,</li>
+<li>Johnny’s so bashful,</li>
+<li>Jennie’s blue e’e,</li>
+<li>Juanita,</li>
+<li>Kind words,</li>
+<li>Kissing through bars,</li>
+<li>Kiss me good-night,</li>
+<li>Landlord’s pet,</li>
+<li>List to the convent,</li>
+<li>Mary Blane,</li>
+<li>Mine own,</li>
+<li>Mother, I’m thinki’g,</li>
+<li>My mountain home,</li>
+<li>My old Ky. home,</li>
+<li>Nancy Till,</li>
+<li>Negro Boatman song,</li>
+<li>Nettie is no more,</li>
+<li>No one to love,</li>
+<li>Not a star from flag,</li>
+<li>Old schoolhouse,</li>
+<li>Once more on sea,</li>
+<li>Our laddie’s dead,</li>
+<li>Rouse, brothers,</li>
+<li>Shall we know each,</li>
+<li>Sigh in the heart,</li>
+<li>Silence and Tears,</li>
+<li>Silver moonl’t winds,</li>
+<li>Sleeping I dreamed,</li>
+<li>Star of the twilight,</li>
+<li>Teddy O’Neale,</li>
+<li>That’s what’s matter,</li>
+<li>The blarney,</li>
+<li>The captain,</li>
+<li>The miller’s song,</li>
+<li>Three fishers,</li>
+<li>’Way down in Maine,</li>
+<li>Widow Malone,</li>
+<li>Woman’s resolution.</li>
+</ul>
+</div>
+
+<div class="chapter"><!--082.png-->
+
+<p class="p2 indent larger"><strong><abbr title="Number">No.</abbr> 10.</strong></p>
+
+<ul class="IX none">
+<li>Alabama Joe,</li>
+<li>All round my hat,</li>
+<li>Answer of Ben Bolt,</li>
+<li>Away down east,</li>
+<li>Away goes Cuffee,</li>
+<li>Battle-cry of Free’m,</li>
+<li>Beggar girl,</li>
+<li>Billie Boy,</li>
+<li>Bingen on Rhine,</li>
+<li>Bonnie blue flag,</li>
+<li>Bring my bro’r back,</li>
+<li>Buy a broom,</li>
+<li>Call me not back,</li>
+<li>Come back, massa,</li>
+<li>Come, oh come,</li>
+<li>Dear mother, I’ve,</li>
+<li>Fannie Grey,</li>
+<li>Gaffer Grey,</li>
+<li>Gentle Annie Ray,</li>
+<li>High Daddie,</li>
+<li>How are you, con’s,</li>
+<li>I dreamed my boy,</li>
+<li>I know a pair of,</li>
+<li>I know my mother,</li>
+<li>I love the merry,</li>
+<li>I’ll tell nobody,</li>
+<li>I’m coming home,</li>
+<li>I muse on the,</li>
+<li>In chamois’ track,</li>
+<li>Jennie June,</li>
+<li>Jessie, the flower of,</li>
+<li>Katie Bell,</li>
+<li>Keep this Bible,</li>
+<li>Kiss me, darling,</li>
+<li>Lanigan’s ball,</li>
+<li>Larry’s good-by,</li>
+<li>Long, long ago,</li>
+<li>Love me little,</li>
+<li>Make me no gaudy,</li>
+<li>Mister Hill, pray be,</li>
+<li>Miseries of sneez’g,</li>
+<li>Mother would com’t,</li>
+<li>Murmuring sea,</li>
+<li>My Emma Louise,</li>
+<li>Nigger, put down,</li>
+<li>Oh, I’ll wear a un’m,</li>
+<li>Oh, sing to me,</li>
+<li>Rally round the flag,</li>
+<li>Rocked in the cradle,</li>
+<li>Roses lie along the,</li>
+<li>Stars and stripes,</li>
+<li>Stop dat knockin’,</li>
+<li>Sunny hours of ch’d,</li>
+<li>Switzer’s song of,</li>
+<li>Tell mother I die,</li>
+<li>Things that never,</li>
+<li>Weeping, sad and,</li>
+<li>Werry pekooliar,</li>
+<li>We will not retreat,</li>
+<li>Wouldn’t you like,</li>
+<li>When this cruel war,</li>
+<li>Who’ll care for mo’r,</li>
+<li>Why do I weep for,</li>
+<li>Will he never come.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<p class="p2 indent larger"><strong><abbr title="Number">No.</abbr> 11.</strong></p>
+
+<ul class="IX none">
+<li>A curious circumst’e,</li>
+<li>Bill and I,</li>
+<li>Boy with the auburn,</li>
+<li>Carrie Lee,</li>
+<li>Darling Nora’s mine,</li>
+<li>Dear mother, call,</li>
+<li>Evangeline,</li>
+<li>Every household has,</li>
+<li>Fairy dreams,</li>
+<li>Gay and happy,</li>
+<li>God bless you,</li>
+<li>Grafted into the,</li>
+<li>Grandmother told,</li>
+<li>How are you, tele’h,</li>
+<li>I loved that dear old,</li>
+<li>I remember the hour,</li>
+<li>I wish he’d tell me,</li>
+<li>Jennie Lorn,</li>
+<li>Katy Avourneen,</li>
+<li>Kind friends are,</li>
+<li>King Cotton,</li>
+<li>Little Major,</li>
+<li>Love’s perfect cure,</li>
+<li>Mother, dearest, I,</li>
+<li>Mother kissed me in,</li>
+<li>My country so dear,</li>
+<li>My little valley home,</li>
+<li>My love is on the,</li>
+<li>No Irish need apply,</li>
+<li>Oh, give us a navy,</li>
+<li>Old John Jones,</li>
+<li>Old Jessy,</li>
+<li>On the field of battle,</li>
+<li>On the shores of,</li>
+<li>Our country and flag,</li>
+<li>Shall we meet again,</li>
+<li>The bachelor’s lam’t,</li>
+<li>The day mother died,</li>
+<li>The nation shall not,</li>
+<li>The regular cure,</li>
+<li>The song of the,</li>
+<li>The rhinoceros,</li>
+<li>The rock beside the,</li>
+<li>The Virginia rose’d,</li>
+<li>They pray for us at,</li>
+<li>’Tis midnight on the,</li>
+<li>Tom Thumb’s wed’g,</li>
+<li>Trust to luck,</li>
+<li>Was my brother in,</li>
+<li>Willow cot,</li>
+<li>Would I were with,</li>
+<li>You say I know not.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<p class="p2 indent larger"><strong><abbr title="Number">No.</abbr> 12.</strong></p>
+
+<ul class="IX none">
+<li>Ah, he kissed me,</li>
+<li>A little farm well,</li>
+<li>All’s well,</li>
+<li>A vesper song,</li>
+<li>Babylon is fallen,</li>
+<li>Beautiful Rose,</li>
+<li>Bread and cheese,</li>
+<li>Brother’s fainting,</li>
+<li>Cousin Jedediah,</li>
+<li>Daisy Deane,</li>
+<li>Dream on, Lillie,</li>
+<li>Ella Clay,</li>
+<li>Footsteps on the,</li>
+<li>He’s gone to the,</li>
+<li>I’m going to fight,</li>
+<li>Isabel, lost Isabel,</li>
+<li>I sailed in the good,</li>
+<li>Jack on the green,</li>
+<li>Jenny Brown and I,</li>
+<li>Johnny is my darl’g,</li>
+<li>Johnny Schmoker,</li>
+<li>Just before the,</li>
+<li>Katy’s letter,</li>
+<li>Maid of Llanwellyn,</li>
+<li>Merry, little, gray,</li>
+<li>Nellie lost and found,</li>
+<li>Oh, are ye sleeping,</li>
+<li>Oh, bless me, mo’r,</li>
+<li>Ole Dan Tucker,</li>
+<li>Our Captain’s last,</li>
+<li>Our sweethearts,</li>
+<li>Robin Adair,</li>
+<li>Singular dreams,</li>
+<li>Sleeping for the flag,</li>
+<li>Song of a thousand,</li>
+<li>The bell-ringer,</li>
+<li>The blue jay’s me’y,</li>
+<li>The coat of other.</li>
+</ul>
+</div>
+<!--083.png-->
+<!--084.png-->
+<div class="p4 box break">
+<p class="smaller">Why these works (Beadle’s Dime Books) are popular, is a problem, quite
+as much for the moralist and the student of National character as for
+the critic. It is a satisfaction that, being so, they are, without
+exception, so far as we can judge, unexceptionably moral. * * They do
+not, even obscurely, pander to vice, or excite the passions.&mdash;<span class="smcap">North
+American Review For July</span>, 1864.</p>
+
+<hr />
+                    <h3>BEADLE’S DIME PUBLICATIONS.</h3>
+
+<p>These publications, by their combined cheapness, excellence, and
+beauty, have become familiar to the American public. They are,
+doubtless, the most popular series of books ever issued in this
+country. This popularity is due quite as much to the high standard of
+merit maintained in <em>each</em> work, as to the exceeding cheapness of the
+little volumes. Literary and moral excellence are primary requisites
+for all contributions to the series, as well as dramatic interest,
+power and beauty of story. Not a manuscript is used which has not
+<em>all</em> of these qualities. Hence the popularity and <em>permanent</em> value
+of these now conceded household and public favorites; and the general
+reader, the teacher, the parent, the scholar, may rest assured that,
+in securing any selected book of the list, they have what will prove
+eminently satisfactory. The list, it will be observed, comprises works
+of a varied character&mdash;each complete of its kind, and especially
+designed to place within reach of those seeking for “good books at
+cheap rates,” such as are calculated to afford pleasure, to edify, and
+to become standards of reference.</p>
+
+<p>The <span class="smcap">Dime Novels</span> series comprises nothing but carefully-chosen works,
+chiefly in the field of <em>American</em> historical fiction, and frontier,
+backwoods, and Indian life delineation. Only the most unexceptionable
+of writers contribute to the series&mdash;thus assuring the high moral as
+well as literary excellence of each issue. The series embodies some of
+the most enticing, as it certainly comprises the <em>cheapest</em>, books in
+<em>American</em> light literature.</p>
+
+<p>The <span class="smcap">Dime Biographies</span> are unusually valuable and appropriate. Each
+issue is 100 pages, <abbr title="duodecimo">12mo</abbr>, set in clear-face, close-cast type; and,
+being prepared with all the care of elaborate works, contains the
+matter of a large and expensive book. The list comprises, as its
+subjects, only those whose character and deeds render their record one
+of unique interest and brilliancy.</p>
+
+<p>The <span class="smcap">Men of the Time</span> series embraces very graphic and stirring
+biographical sketches of our “Fighting Generals”&mdash;those who are
+working out the great problem of the Union. The list, it will be
+observed, contains those whose record the public desire to read.</p>
+
+<p><span class="smcap">Dime Tales, Traditions and Romance</span> of Border and Revolutionary Times.
+Published in numbers, 64 <em>crown octavo</em> pages&mdash;each number being
+complete in itself; beautifully illustrated. This charming series
+embraces the <em>romance</em> of our history. It is a very cheap and very
+desirable household and family library. Edited by <span class="smcap">Edward S. Ellis</span>,
+Esq.</p>
+
+<p>The <span class="smcap">Dime Fiction</span> is a new <em>octavo</em> series, in which it is designed to
+embrace many novel and <em>exhilarating</em> stories illustrative of local
+life and peculiarities, of forest and backwoods characteristics and
+experiences, of strange adventure and singular incident. The best of
+writers only will contribute to this delightful series.</p>
+
+<p>The <span class="smcap">Dime Text</span> and <span class="smcap">Hand-Books</span> have won a permanent place in the market
+for such works. The motto, “incomparable in excellence, unapproachable
+in price,” especially attaches to these little volumes&mdash;each one of
+which is a pocket encyclopædia on its subject. To the housekeeper, to
+young people, and to those interested in games, etc., these books are
+truly valuable.</p>
+
+<p>The <span class="smcap">Dime Family</span> and <span class="smcap">School</span> series aims to supply a class of text-books
+and manuals fitted for every person’s use&mdash;the old and the young, the
+learned and the unlearned. They have won the heartiest commendations
+of eminent educational men, and bid fair to find their way into
+schools and families generally.</p>
+
+<p>The <span class="smcap">Dime Song Books</span> possess one feature which renders them
+<em>incomparably</em> the best in the market. Beadle &amp; Co. have the
+<em>exclusive</em> right to use words of songs issued by most of our music
+publishers. Thus, most of the popular songs of the day can only be had
+(words) in the Dime Song series.</p>
+
+<hr class="short" />
+
+<p>☞ Beadle’s Dime Publications can be had of
+Newsdealers generally; or, they will be sent, <span class="muchsmaller">POST-PAID</span>, to any
+address, on receipt of price&mdash;Ten Cents for each book ordered.
+Catalogues supplied <em>free</em>, on application. Address</p>
+
+<p class="center"><strong>BEADLE AND COMPANY, General Dime Book Publishers,<br />
+118 William Street, New York.</strong></p>
+</div>
+
+<div class="p4 tnote break">
+<h4>Transcriber’s Notes</h4>
+
+<p><a name="TOCnote"></a>‘The Star-Spangled Banner’ and ‘Hail
+Columbia’ are shown in the Table of Contents on pages 76 and 77,
+respectively. Neither appears in this volume. ‘The Star-Spangled
+Banner’ appears in Dime Song Book 1, and ‘Hail Columbia’ appears in
+Dime Song Book 3.</p>
+
+<p>Within text of poems, missing punctuation was added to the end of
+sentences. Missing commas and periods were added to ends of index
+entries. The last page of the book was damaged along the right edge.
+Missing letters were added to complete words in the damaged section.
+In the Table of Contents, ‘Begone, Secesh’ was changed to ‘Begone,
+Sesesh’ to match the spelling in the poem on <a href="#Page_43">page 43</a>. In other lyrics,
+the word is spelled ‘Secesh’ and was not changed.</p>
+</div>
+
+</body>
+</html>
